@@ -1,9 +1,19 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
 /*-----------------------------Colour---------------------------*/
-
-
-
+/* #343148 eclipe/ #D2C29D soybean/ #F0EAD6 sweetcorn/ #615550 brown granite/ #E8B5CE sweet lilac */
+.bg-color-nav {
+    background: #343148;
+    color: #D2C29D;
+}
+.navbar-color {
+    background: #343148;
+    color: #E8B5CE;
+}
+.navbar-toggler {
+    
+    background: #E8B5CE
+}
 
 /*-------------------special paddings/margins/text---------------*/
 
@@ -12,9 +22,27 @@
 
 /*---------------------------Heading-----------------------------*/
 
+header {
+    margin-top: 25px;
+    margin-bottom: 40px;
+}
 
+.navbar-brand {
+    padding: 60px 5px 60px 5px;
+    line-height: 0;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 44px;
+}    
+.nav-menuitems li{
+    font-size: larger;
+    font-family: "Roboto", sans-serif;
+    color: #E8B5CE;
+}
 
-
+.navbar-toggler-icon-styling{
+    background-color: #E8B5CE;
+}
 /*--------------------------Hover.css----------------------------*/
 
 
@@ -23,9 +51,7 @@
 
 /*---------------------------Footer------------------------------*/
 
-.row {
-    position: center;
-}
+
 
 
 /*-----------------------Workshop-form--------------------------*/
