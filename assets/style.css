@@ -2,6 +2,29 @@
 
 
 /* #343148 eclipe/ #D2C29D soybean/ #F0EAD6 sweetcorn/ #615550 granite/ #E8B5CE lilac */
+/* -----speciali styling----*/
+
+.uppercase{
+  text-transform: uppercase; 
+}
+/*-----------Header--------------*/
+
+heading div{
+    background-color: #343148;
+    color: #F0EAD6;
+    min-height: 20px;
+    margin: 0;
+    padding: 25px;
+    font-family: "Exo", sans-serif;
+}
+heading ul {
+    background-color: #343148;
+        
+}
+#nav-item-color li a{
+    color: #E8B5CE;
+}
+
 /*-----------Footer--------------*/
 
 footer {
@@ -11,14 +34,12 @@ footer {
     margin: 0;
     padding: 15px;
     font-family: "Exo", sans-serif;
-    
-    
+ 
 }
+
 .social.links {
     padding-bottom: 15px;
-    
-    
-
+ 
 }
 .social-links li a i {
     width: 32px;
@@ -29,13 +50,12 @@ footer {
     line-height: 10px;
     text-align: center;
     color: #E8B5CE;
-
-    
+  
 }
 .social-links li a i:hover {
     background-color: #343148;
 }
 .footer-details {
-    padding: 40px
-    
+    padding: 40px  
 }
+
