@@ -6,22 +6,25 @@
 
 .uppercase{
   text-transform: uppercase; 
+
+}
+h4,
+h5 {
+    font-weight: 300;
 }
 /*-----------Header--------------*/
 
-heading div{
+heading div,
+heading ul{
     background-color: #343148;
     color: #F0EAD6;
     min-height: 20px;
     margin: 0;
-    padding: 25px;
+    padding: 15px;
     font-family: "Exo", sans-serif;
 }
-heading ul {
-    background-color: #343148;
-        
-}
-#nav-item-color li a{
+
+.nav li a{
     color: #E8B5CE;
 }
 
@@ -32,15 +35,34 @@ footer {
     color: #E8B5CE;
     min-height: 120px;
     margin: 0;
-    padding: 15px;
+    padding: 15px 0 10px 0;
     font-family: "Exo", sans-serif;
- 
+}
+
+.footer-details {
+    padding: 10px  
+} 
+
+.col-sm-6{
+    padding-bottom: 15px;
+}
+
+.get-in-touch a i{
+    padding: 10px;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    font-size: 12px;
+    line-height: 10px;
+    text-align: left;
+    color: #E8B5CE;
+    background-color: #343148;  
 }
 
 .social.links {
-    padding-bottom: 15px;
- 
+    padding-bottom: 10px;
 }
+
 .social-links li a i {
     width: 32px;
     height: 32px;
@@ -50,12 +72,17 @@ footer {
     line-height: 10px;
     text-align: center;
     color: #E8B5CE;
-  
-}
-.social-links li a i:hover {
     background-color: #343148;
 }
-.footer-details {
-    padding: 40px  
+
+.get-in-touch a i:hover,
+.social-links li a i:hover {
+    background-color: #F0EAD6;
 }
+
+
+
+
+
+
 
