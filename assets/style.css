@@ -9,23 +9,45 @@
 
 }
 h4,
-h5 {
+h5,
+h6{
     font-weight: 300;
 }
-/*-----------Header--------------*/
-
-heading div,
-heading ul{
+/*-----------Header section--------------*/
+heading {
     background-color: #343148;
-    color: #F0EAD6;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    
+}
+.header{
+    background-color: #343148;
     min-height: 20px;
     margin: 0;
     padding: 15px;
-    font-family: "Exo", sans-serif;
+    font-family: "Roboto", sans-serif;
+    
+}
+.header div{
+    color: #F0EAD6;
+    padding: 15px;
 }
 
 .nav li a{
     color: #E8B5CE;
+    padding: 15px;
+    font-family: "Exo", sans-serif;
+}
+/*-----------Home page main section--------------*/
+
+section {
+    background-color: #F0EAD6;;
+    color: #615550;
+    min-height: 120px;
+    margin: 0;
+    padding: 15px;
+    font-family: "Roboto", sans-serif;
 }
 
 /*-----------Footer--------------*/
