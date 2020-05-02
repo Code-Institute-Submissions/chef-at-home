@@ -14,21 +14,28 @@ h6{
     font-weight: 300;
 }
 
-/*---------MEDIA---------------*/
-@media screen and (max-width: 1393px){
+/*---------MEDIA---------------make nav float right when on mobile version! 
+@media screen and (min-width: 720px){
    #nav{
-       float: right;
+       
    }
+}*/
+/*
+@media screen and (min-width: 720px) {
+    .col-sm-12 li{
+        float: right;
+    }
 }
 /*-----------Header section--------------*/
 
-.header{
+header{
     background-color: #343148;
     min-height: 20px;
     margin: 0;
     font-family: "Roboto", sans-serif;
     color: #F0EAD6;
     padding: 50px 0px 0px 15px;
+    
     
 }
 .heading-logo h4{
