@@ -31,26 +31,19 @@ h6{
 header{
     background-color: #343148;
     min-height: 20px;
-    margin: 0;
     font-family: "Roboto", sans-serif;
     color: #F0EAD6;
-    padding: 50px 0px 0px 15px;
-    
-    
+       
 }
 .heading-logo h4{
     font-size: 280%;
     letter-spacing: 2px;
+    padding: 50px 0 0 25px;
+
 }
 
-.nav{
-    padding: 0 15px 30px 0px;
-    margin: 0;
-}
 .nav li a{
     color: #E8B5CE;
-    padding: 15px 10px 15px 0px;
-    margin-top: 0;
     font-family: "Exo", sans-serif;
 }
 
@@ -71,34 +64,8 @@ section {
 footer {
     background-color: #615550;
     color: #E8B5CE;
-    min-height: 120px;
-    margin: 0;
-    padding: 30px 0 10px 0;
+    min-height: 50px;
     font-family: "Exo", sans-serif;
-}
-
-.footer-details {
-    padding: 10px  
-} 
-
-.col-sm-6{
-    padding-bottom: 15px;
-}
-
-.get-in-touch a i{
-    padding: 10px;
-    width: 32px;
-    height: 32px;
-    border-radius: 50%;
-    font-size: 12px;
-    line-height: 10px;
-    text-align: left;
-    color: #E8B5CE;
-    background-color: #343148;  
-}
-
-.social.links {
-    padding-bottom: 10px;
 }
 
 .social-links li a i {
@@ -113,13 +80,14 @@ footer {
     background-color: #343148;
 }
 
-.get-in-touch a i:hover,
 .social-links li a i:hover {
     color:#343148;
     background-color: #E8B5CE;
 }
 
-
+.social-links ul{
+    list-style-type: none;
+}
 
 
 
