@@ -13,6 +13,13 @@ h5,
 h6{
     font-weight: 300;
 }
+
+/*---------MEDIA---------------*/
+@media screen and (max-width: 1393px){
+   #nav{
+       float: right;
+   }
+}
 /*-----------Header section--------------*/
 
 .header{
@@ -21,19 +28,26 @@ h6{
     margin: 0;
     font-family: "Roboto", sans-serif;
     color: #F0EAD6;
+    padding: 50px 0px 0px 15px;
+    
 }
-.heading-logo{
-    padding: 50px 0px 0px 30px;
+.heading-logo h4{
+    font-size: 280%;
+    letter-spacing: 2px;
 }
+
 .nav{
-    padding: 0 15px 30px 0;
+    padding: 0 15px 30px 0px;
+    margin: 0;
 }
 .nav li a{
     color: #E8B5CE;
-    padding: 15px;
+    padding: 15px 10px 15px 0px;
     margin-top: 0;
     font-family: "Exo", sans-serif;
 }
+
+
 /*-----------Home page main section--------------*/
 
 section {
