@@ -60,9 +60,10 @@ section {
     color: #615550;
     font-family: "Roboto", sans-serif;
 }
+.quote-text-box{
+    background-color: #343148;
+    color: #F0EAD6;
 
-.blockquote-footer{
-    background-color: #F0EAD6;
 }
 
 
