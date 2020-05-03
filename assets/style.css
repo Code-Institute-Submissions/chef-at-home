@@ -8,6 +8,7 @@
   text-transform: uppercase; 
 
 }
+/*
 h4,
 h5,
 h6{
@@ -55,13 +56,18 @@ header{
 /*-----------Home page main section--------------*/
 
 section {
-    background-color: #F0EAD6;;
+    background-color: #F0EAD6;
     color: #615550;
-    min-height: 120px;
-    margin: 0;
-    padding: 15px;
     font-family: "Roboto", sans-serif;
 }
+
+.blockquote-footer{
+    background-color: #F0EAD6;
+}
+
+
+
+
 
 /*-----------Footer--------------*/
 
