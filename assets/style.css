@@ -60,13 +60,16 @@ header{
 
 section {
     background-color: #F0EAD6;
-    color: #615550;
+    color: #343148;
     font-family: "Roboto", sans-serif;
 }
 .quote-text-box{
     background-color: #343148;
     color: #F0EAD6;
 
+}
+.quote-header{
+    color: #343148;
 }
 
 .quote-footer{
