@@ -6,7 +6,10 @@
 
 .uppercase{
   text-transform: uppercase; 
-
+}
+#hr-color{
+    
+    border-top: 3px solid #343148;
 }
 /*
 h4,
@@ -68,12 +71,10 @@ section {
 
 .quote-footer{
     background-color: #343148!important;
+    color: #F0EAD6;
     min-height: 25px;
 }
 
-.quote-img {
-    background-color: #F0EAD6;
-}
 
 
 
