@@ -63,9 +63,15 @@ section {
     color: #343148;
     font-family: "Roboto", sans-serif;
 }
+.welcome-part{
+    background-color: #E8B5CE;
+;
+}
 .quote-text-box{
     background-color: #343148;
     color: #F0EAD6;
+    font-family: "Roboto", sans-serif;
+    
 
 }
 .quote-header{
@@ -78,7 +84,9 @@ section {
     min-height: 25px;
 }
 
-
+.image-box {
+    background-color: #E8B5CE;
+}
 
 
 /*-----------Footer--------------*/
