@@ -7,9 +7,6 @@
 .uppercase{
   text-transform: uppercase; 
 }
-#hr-color{
-    border-top: 2px solid #343148;
-}
 
 /*-----------Header section--------------*/
 
@@ -22,7 +19,7 @@ header{
 }
 .heading-logo h4{
     letter-spacing: 2px;
-    margin-bottom:0;
+    margin-bottom: 0;
 }
 
 .nav li a{
@@ -55,15 +52,25 @@ section {
     
 }
 .quote-header{
+    border-bottom: 2px solid #343148;
+    margin: 0;
+}
+#hr-quotes {
+    margin: 0;
     color: #343148;
 }
-
 .quote-footer{
     background-color: #343148!important;
     color: #F0EAD6;
     min-height: 25px;
 }
-
+blockquote{
+    margin: 0;
+}
+.blockquote {
+    margin-bottom: 2px;
+    font-size: 1rem;
+}
 .image-box {
     background-color: #E8B5CE;
 }
