@@ -30,62 +30,69 @@
     <section class="workshop-greeting">
         <div> invite to submit the form </div>
     </section>
-    <section class="workshop-form">
-        <form class="container-sm">
-            <div class="form-group-row">
-                <div class="row-flex">
-                    <div class="col-4">
-                        <label for="name"> Name</label>
-                    </div>
-                    <div class="col-sm">
-                        <input type="text" class="form-control col-4" id="name" placeholder="Your Name">
-                    </div>
+    <section class="workshop">
+        <div class=""> 
+            <form class="container-sm workshop-form">
+                <div class="form-group row">
+                <label for="name" class="col-sm-2 col-form-label"> Name</label>
+                <div class="col-sm-4">
+                    <input type="text" class="form-control" id="name" placeholder="Your Name">
                 </div>
             </div>  
-  <div class="form-group-row">
-    <label for="email"> Email Address</label>
-    <input type="email" class="form-control" id="email" placeholder="name@example.com">
-  </div>
-
-  <div class="form-group-row">
-    <label for="workshop&date"> Workshop & Date:</label>
-    <select class="form-control form-control-sm" id="workshop&date">
-      <option selected> Choose... </option>
-            <option value> Breakfast | 16th May </option>
-      <option value> Dinner | 16th May </option>
-      <option value> Lunch| 17th May </option>
-      <option value> Breakfast | 23rd May </option>
-      <option value> Dinner | 23rd May </option>
-      <option value> Lunch| 24th May </option>
-      <option value> Breakfast | 30th May </option>
-      <option value> Dinner | 30th May </option>
-      <option value> Lunch| 31st May </option>
-
-
-    </select>
-  </div>
-  <div class="group-size-row">
-    <label for="partysize"> Party Size:</label>
-    <select class="form-control form-control-sm" id="partysize">
-        <option selected> Choose... </option>
-      <option value> One adult £50 </option>
-      <option value> Two adults £90 </option>
-      <option value> Three adults £140 </option>
-      <option value> Four adults £180 </option>
-      <option value> One adult & one child £70</option>
-      <option value> Two adults & one child £115</option>
-      <option value> One adult & two children £90</option> 
-      <option value> Two adults & two children £120</option>
-      <option value> For groups larger than four email instead</option>
-    </select>
-  </div>
-  <div class="form-group">
-    <label for="otherinformation">Do we need to know anything else?</label>
-    <textarea class="form-control" id="otherinfo" rows="3"></textarea>
-  </div>
-  <button type="submit" class="btn btn-primary mb-2">Book your workshop & pay </button>
-</form>
-
+            <div class="form-group row">
+                <label for="email" class="col-sm-2 col-form-label"> Email Address</label>
+                <div class="col-sm-4">
+                    <input type="email" class="form-control" id="email" placeholder="name@example.com">
+                     <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="workshop&date" class="col-sm-2 col-form-label"> Workshop & Date:</label>
+                <div class="col-sm-4">
+                    <select class="custom-select custom-select-sm" id="workshop&date">
+                        <option selected> Choose... </option>
+                        <option value> Breakfast | 16th May </option>
+                        <option value> Dinner | 16th May </option>
+                        <option value> Lunch| 17th May </option>
+                        <option value> Breakfast | 23rd May </option>
+                        <option value> Dinner | 23rd May </option>
+                        <option value> Lunch| 24th May </option>
+                        <option value> Breakfast | 30th May </option>
+                        <option value> Dinner | 30th May </option>
+                        <option value> Lunch| 31st May </option>
+                    </select>
+                </div>  
+            </div>    
+                
+            <div class="form-group row">
+                <label for="partysize" class="col-sm-2 col-form-label"> Party Size:</label>
+                <div class="col-sm-4">
+                    <select class="custom-select custom-select-sm" id="partysize">
+                        <option selected> Choose... </option>
+                        <option value> One adult £50 </option>
+                        <option value> Two adults £90 </option>
+                        <option value> Three adults £140 </option>
+                        <option value> Four adults £180 </option>
+                        <option value> One adult & one child £70</option>
+                        <option value> Two adults & one child £115</option>
+                        <option value> One adult & two children £90</option> 
+                        <option value> Two adults & two children £120</option>
+                        <option value> For groups larger than four email instead</option>
+                    </select>
+                </div>
+            </div>
+            <div class="form-group row">
+            <div class="col-sm-6">
+                <label for="otherinformation" class="col-form-label mb-0">Do we need to know anything else?</label>
+                <textarea class="form-control" id="otherinfo" rows="2"></textarea>
+            </div>
+            </div>
+    
+            <div class="text-center pay-button">
+                <button type="submit" class="btn mb-1 mt-1 uppercase"> Book & pay </button>
+            </div>
+            </form>
+        </div>
 
         
     </section>
