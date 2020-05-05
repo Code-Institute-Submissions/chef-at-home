@@ -8,28 +8,9 @@
   text-transform: uppercase; 
 }
 #hr-color{
-    
-    border-top: 3px solid #343148;
-}
-/*
-h4,
-h5,
-h6{
-    font-weight: 300;
+    border-top: 2px solid #343148;
 }
 
-/*---------MEDIA---------------make nav float right when on mobile version! 
-@media screen and (min-width: 720px){
-   #nav{
-       
-   }
-}*/
-/*
-@media screen and (min-width: 720px) {
-    .col-sm-12 li{
-        float: right;
-    }
-}
 /*-----------Header section--------------*/
 
 header{
@@ -40,7 +21,6 @@ header{
        
 }
 .heading-logo h4{
-    font-size: 280%;
     letter-spacing: 2px;
     padding: 50px 0 0 25px;
 
@@ -49,7 +29,6 @@ header{
 .nav li a{
     color: #E8B5CE;
     font-family: "Exo", sans-serif;
-    padding: 0 0 0 25px;
 }
 .nav li a:hover{
     color: #F0EAD6;
@@ -70,9 +49,8 @@ section {
 .quote-text-box{
     background-color: #343148;
     color: #F0EAD6;
-    font-family: "Roboto", sans-serif;
+    font-family: "Exo", sans-serif;
     
-
 }
 .quote-header{
     color: #343148;
