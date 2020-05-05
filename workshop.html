@@ -28,36 +28,54 @@
     </header>
 
     <section class="workshop-greeting">
+        <div> invite to submit the form </div>
     </section>
-
     <section class="workshop-form">
-        <table class="table table-bordered">
-            <tbody>
-                <tr>
-                    <th scope="row">Name</th>
-                    <td>insert name</td> 
-                </tr>
-                <tr>
-                    <th scope="row">Email</th>
-                    <td>insert email</td> 
-                </tr>
-                <tr>
-                    <th scope="row">Workshop & Date</th>
-                    <td>drop down selection menu</td> 
-                </tr>
-                <tr>
-                    <th scope="row"> Party Size:</th>
-                    <td>drop down selection menu</td> 
-                </tr>
-                <tr>
-                    <th scope="row" colspan="2">Anything else you would like us to know?</th>
-                </tr>
-                <tr>
-                    <th scope="row" colspan="2"></th>
-                </tr>
+        <form>
+  <div class="form-group">
+    <label for="name"> Name</label>
+    <input type="email" class="form-control" id="name" placeholder="your name">
+  </div>
+  <div class="form-group">
+    <label for="email"> Email Address</label>
+    <input type="email" class="form-control" id="email" placeholder="name@example.com">
+  </div>
 
-            </tbody>
-        </table>
+  <div class="form-group">
+    <label for="workshop&date"> Workshop & Date:</label>
+    <select class="form-control form-control-sm" id="workshop&date" placeholder="Choose...">
+      <option selected>1</option>
+      <option selected>1</option>
+      <option selected>1</option>
+      <option selected>1</option>
+      <option selected>1</option>
+      <option selected>1</option>
+      <option selected>1</option>
+      <option selected>1</option>
+    </select>
+  </div>
+  <div class="group-size">
+    <label for="partysize"> Party Size:</label>
+    <select class="form-control form-control-sm" id="partysize" placeholder="Choose...">
+      <option selected>1</option>
+      <option selected>1</option>
+      <option selected>1</option>
+      <option selected>1</option>
+      <option selected>1</option>
+      <option selected>1</option>
+      <option selected>1</option>
+      <option selected>1</option>
+    </select>
+  </div>
+  <div class="form-group">
+    <label for="otherinformation">Do we need to know anything else?</label>
+    <textarea class="form-control" id="otherinfo" rows="3"></textarea>
+  </div>
+  <button type="submit" class="btn btn-primary mb-2">Book your workshop</button>
+</form>
+
+
+        
     </section>
 
     <footer class="container-fluid">
