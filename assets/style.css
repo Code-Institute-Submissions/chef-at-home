@@ -46,9 +46,10 @@ section {
 ;
 }
 .quote-text-box{
-    background-color: #343148;
-    color: #F0EAD6;
+    background-color: #E8B5CE;
+    color: #343148;
     font-family: "Exo", sans-serif;
+    
     
 }
 .quote-header{
@@ -57,22 +58,24 @@ section {
 }
 #hr-quotes {
     margin: 0;
-    color: #343148;
+    color: #E8B5CE;
 }
-.quote-footer{
-    background-color: #343148!important;
-    color: #F0EAD6;
+.blockquote-footer{
+    background-color: #E8B5CE!important;
+    color:#343148!important;
     min-height: 25px;
 }
+
 blockquote{
     margin: 0;
 }
 .blockquote {
     margin-bottom: 2px;
-    font-size: 1rem;
+    font-size: 18px;
+    font-weight: 300;
 }
 .image-box {
-    background-color: #E8B5CE;
+    background-color: #343148;
 }
 
 
