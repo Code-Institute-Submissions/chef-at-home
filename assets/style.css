@@ -111,19 +111,24 @@ footer {
 
 /*-----------Workshop page main section--------------*/
 
-.form-group {
-    margin-bottom: 0;
-    Margin-left: 0;
-    
-}
-.workshop-form .form-group {
-    justify-content: center;
-}
+
 .workshop-form .form-group div label {
     padding:0;
 }
+.form-group {
+    margin-bottom: 2px;
+        
+}
 .form-group label {
     padding-bottom:0;
+    padding-left: 1;
+    padding-right: 1; 
+    
+}
+.form-group div {
+    padding-left: 0;
+    padding-right: 1;
+    
 }
 .form-control {
     padding-top: 0; padding-bottom: 0;
