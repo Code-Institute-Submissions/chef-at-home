@@ -48,9 +48,7 @@ section {
 .quote-text-box{
     background-color: #E8B5CE;
     color: #343148;
-    font-family: "Exo", sans-serif;
-    
-    
+    font-family: "Exo", sans-serif;   
 }
 .quote-header{
     border-bottom: 2px solid #343148;
@@ -65,7 +63,6 @@ section {
     color:#343148!important;
     min-height: 25px;
 }
-
 blockquote{
     margin: 0;
 }
@@ -130,10 +127,6 @@ footer {
     font-weight: normal;
 }
 
-.col-form-label {
-    vertical-align: middle;
-    
-}
 .custom-select{
     display: block;
     height: 38px;
@@ -161,4 +154,9 @@ footer {
     border-color: #343148;
     font-weight: bold;
     border-width: solid;
+}
+/*------------------------Recipes Page------------------------*/
+.card {
+    background-color: #F0EAD6;
+
 }
