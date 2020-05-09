@@ -43,82 +43,27 @@
     
     <section class="recipes-page-intro px-2 py-1">
         <div class="container-fluid">
-            <div class="row justify-content-center">
-                <div class="accordion d-sm-flex" id="accordion-recipes">
-                    <div class="card col">
-                        <div class="card-header" id="headingbreakfast">
-                            <img src="assets/images/pancakes-recipe.jpg" alt="Plates served up with pancakes and berries" class="card-img-top rounded" max-width="100%" height="auto">
-                            <h2 class="mb-0 text-center">
-                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapsebreakfast" aria-expanded="false" aria-controls="collapsebreakfast"> Breakfast </button>
-                            </h2>
-                        </div>
-                        <div id="collapse-breakfast" class="collapse" aria-labelledby="headingbreakfast" data-parent="#accordion-recipes">
-                            <div class="card-body container">
-                                <div class="row">
-                                    <div class="col">
-                                        <div class="breakfast-recipe-title"> Pancakes
-                                            <p class="prep-time"> prep-time 5min | cook-time 10min | serves 2
-                                            </p>
-                                        </div>
-                                        <div class="you-will-need"> You will need:
-                                            <ul class="ingredients">
-                                                <li class="ingredient-items"> 1 cup of oats</li>
-                                                <li class="ingredient-items"> 1/2 cup of mil (your choise, but tastes fantastic with oat milk) </li>
-                                                <li class="ingredient-items"> 1 ripe banana</li>
-                                                <li class="ingredient-items"> pinch of salt (small pinch) </li>
-                                                <li class="ingredient-items"> tsp vanilla essence (optional) </li>
-                                                <li class="ingredient-items"> tbsp maple syrup (optional)</li>
-                                            </ul>
-                                            <ul class="ingredients-serving">
-                                                <li class="ingredient-items-serving">youghurt of your choice</li>
-                                                <li class="ingredient-items-serving">berries and fruit of your choice</li>
-                                            </ul>
-                                        </div>
-                                        <div class="method">
-                                            <ol class="how-to">
-                                                <li class="how-to-desctiption">Put all of the ingredients into a blender. Allow your blender to combine the engredients into a smooth batter.</li>
-                                                <li class="how-to-desctiption">Place a spoonfull of batter into a pre-heated and lightly oiled frying pan. </li>
-                                                <li class="how-to-desctiption">Flip the pancake after couple minutes once it's browned. Repeat on the other side. </li>
-                                                <li class="how-to-desctiption">Serve with yoghurt, berries, jam, nutella ( or anything that tickles your fancy).  </li>
-                                            </ol>
-                                        </div>
-                                    </div>
-                                </div>
-
-                            
-                            
-                            
-                            
-                            
-                            
-                            
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card col">
-                        <div class="card-header" id="headinglunch">
-                            <img src="assets/images/pizza-recipe.jpg" alt="Pizza on a serving board" class="card-img-top rounded" max-width="100%" height="auto">
-                            <h2 class="mb-0 text-center">
-                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapselunch" aria-expanded="false" aria-controls="collapselunch"> Lunch </button>
-                            </h2>
-                        </div>
-                        <div id="collapse-lunch" class="collapse" aria-labelledby="headinglunch" data-parent="#accordion-recipes">
-                            <div class="card-body">nim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. 
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card col">
-                        <div class="card-header" id="headingdinner">
-                            <img src="assets/images/curry-recipe.jpg" alt="a bowl of chickpea curry with rice" class="card-img-top rounded" max-width="100%" height="auto">
-                            <h2 class="mb-0 text-center">
-                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapsedinner" aria-expanded="false" aria-controls="collapsedinner"> Dinner</button>
-                            </h2>
-                        </div>
-                        <div id="collapse-dinner" class="collapse" aria-labelledby="headingdinner" data-parent="#accordion-recipes">
-                            <div class="card-body">nim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. 
-                            </div>
-                        </div>
-                    </div>
+            <div class="row p-0 pb-2 ">
+                <div class="col-sm mx-2 mt-1 p-2 image-box justify-content-center">
+                    <h2 class="mb-0 text-center">
+                        <a class="btn btn-link active" href="breakfast.html" role="button"> Breakfast</a>
+                    </h2>
+                    <img src="assets/images/pancakes-recipe.jpg" alt="Plates served up with pancakes and berries" class="card-img-top rounded" max-width="100%" height="auto">
+                    
+                </div>
+                <div class="col-sm mx-2 mt-1 p-2 image-box justify-content-center">
+                    <h2 class="mb-0 text-center">
+                        <a class="btn btn-link" role="button" href="lunch.html"> Lunch </a>
+                    </h2>
+                    <img src="assets/images/pizza-recipe.jpg" alt="Pizza on a serving board" class="card-img-top rounded" max-width="100%" height="auto">
+                        
+                </div>
+                <div class="col-sm mx-2 mt-1 p-2 image-box justify-content-center">
+                    <h2 class="mb-0 text-center">
+                        <a class="btn btn-link" role="button" href="dinner.html"> Dinner</a>
+                    </h2>
+                    <img src="assets/images/curry-recipe.jpg" alt="a bowl of chickpea curry with rice" class="card-img-top rounded" max-width="100%" height="auto">
+                        
                 </div>
             </div>
         </div> 
@@ -157,8 +102,5 @@
                 </li>
             </ul>
 </footer>
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </body>
 </html> 
