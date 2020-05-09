@@ -155,8 +155,27 @@ footer {
     font-weight: bold;
     border-width: solid;
 }
-/*------------------------Recipes Page------------------------*/
-.card {
-    background-color: #F0EAD6;
+/*------------------------Recipes Pages----------------------*/
+
+.back-to-recipes p a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 14px;
+    line-height: 10px;
+    text-align: center;
+    color: #E8B5CE;
+    background-color: #343148;
+    
+}
+
+.back-to-recipes p a i:hover {
+    color:#343148;
+    background-color: #E8B5CE;
+}
+
+.you-will-need li {
+    list-style-type: none;
 
 }
