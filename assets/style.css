@@ -10,133 +10,11 @@
 .image-box {
     background-color: #7a7e9f ;
 }
-
 section {
     background-color: #f2f2f5;
     color: #20212c;
     font-family: "Roboto", sans-serif;
 }
-
-/*-----------Header section--------------*/
-
-header{
-    background-color: #2b2c3b ;
-    min-height: 75px;
-    font-family: "Roboto", sans-serif;
-    color: #fff;
-}
-
-.heading-logo h4{
-    letter-spacing: 3px;
-    margin-bottom: 0;
-    font-size: 35px;
-}
-
-.nav li a{
-    color: #a6a9bf ;    
-}
-.nav li a:hover{
-    color: #fff;
-}
-
-/*-----------Home page main section--------------*/
-
-.quote-text-box{
-    background-color: #36384a;
-    color: #fff;
-    font-family: "Exo", sans-serif;   
-}
-.media,
-.media-body{
-    min-height: 150px;
-
-}
-.quote-header{
-    border-bottom: 2px solid #20212c;
-    margin: 0;
-}
-#hr-quotes, 
-blockquote {
-    margin: 0;  
-}
-.blockquote-footer{
-    background-color: #36384a!important;
-    color:#fff!important;
-    height: 25px;
-}
-
-.blockquote {
-    margin-bottom: 2px;
-    font-size: 18px;
-    font-weight: 300;
-  
-}
-
-/*-------------------Footer---------------------*/
-
-footer {
-    background-color: #252734;
-    height: 65px;
-}
-
-.social-links li a i {
-    width: 32px;
-    height: 32px;
-    padding: 12px 0;
-    border-radius: 50%;
-    font-size: 14px;
-    line-height: 10px;
-    text-align: center;
-    color: #36384a;
-    background-color: #fff;
-}
-
-.social-links li a i:hover {
-    color:#36384a;
-    background-color:#7a7e9f ;
-}
-
-.social-links li{
-    list-style-type: none;
-}
-
-/*---------------Workshop Page-------------------*/
-
-.form-group {
-    margin: 0;     
-}
-.form-control{
-    border-color: #36384a;
-    border-width: 3px;
-    margin-top: 2px; margin-bottom:2px;
-    background-color:#fff;
-    vertical-align: middle;
-    color: #36384a;
-    font-family: "Roboto", sans-serif; 
-    font-weight: bolder;
-}
-
-.form-group input{
-    font-weight: normal;
-}
-
-.custom-select{
-    display: block;
-    height: 38px;
-    border-color: #36384a;
-    border-width: 2px;
-    margin-top: 2px; margin-bottom: 2px;
-    background-color: #fff;
-    font-family: "Roboto", sans-serif;
-    padding-left: 0.75rem; padding-right: 0.75rem;
-  
-}
-.form-legal-info{
-    padding-left: 15px; padding-right: 15px;
-    margin-top: 3px; margin-bottom: 3px;
-    
-}
-
 .btn {
     color: #fff;
     background-color: #36384a;
@@ -149,15 +27,123 @@ footer {
     border-color: #36384a;
     border-width: 2px;  
 }
+/*-----------Header section--------------*/
 
-/*-------------------------Recipes Page Main-----------------------------*/
+header{
+    background-color: #2b2c3b ;
+    min-height: 75px;
+    font-family: "Roboto", sans-serif;
+    color: #fff;
+}
+.heading-logo h4{
+    letter-spacing: 3px;
+    margin-bottom: 0;
+    font-size: 35px;
+}
+.nav li a{
+    color: #a6a9bf ;    
+}
+.nav li a:hover{
+    color: #fff;
+}
+
+/*-----------Home page main section--------------*/
+
+.quote-text-box{
+    background-color: #36384a;
+    color: #fff;
+    font-family: "Exo", sans-serif;    
+}
+.media,
+.media-body{
+    min-height: 150px;
+}
+.quote-header{
+    
+    border-bottom: 2px solid #20212c;
+    margin: 0;
+}
+#hr-quotes, 
+blockquote {
+    margin: 0;  
+}
+.blockquote-footer{
+    background-color: #36384a!important;
+    color:#fff!important;
+    height: 25px;
+}
+.blockquote {
+    margin-bottom: 2px;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+/*-------------------Footer---------------------*/
+
+footer {
+    background-color: #252734;
+    height: 65px;
+}
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 14px;
+    line-height: 10px;
+    text-align: center;
+    color: #36384a;
+    background-color: #fff;
+}
+.social-links li a i:hover {
+    color:#36384a;
+    background-color:#7a7e9f ;
+}
+.social-links li{
+    list-style-type: none;
+}
+
+/*---------------Workshop Page-------------------*/
+
+.form-group {
+    margin: 0;     
+}
+.form-group input{
+    font-weight: normal;
+}
+.form-control{
+    border-color: #36384a;
+    border-width: 3px;
+    margin-top: 2px; margin-bottom:2px;
+    background-color:#fff;
+    vertical-align: middle;
+    color: #36384a;
+    font-family: "Roboto", sans-serif; 
+    font-weight: bolder;
+}
+.custom-select{
+    display: block;
+    height: 38px;
+    border-color: #36384a;
+    border-width: 2px;
+    margin-top: 2px; margin-bottom: 2px;
+    background-color: #fff;
+    font-family: "Roboto", sans-serif;
+    padding-left: 0.75rem; padding-right: 0.75rem;
+}
+.form-legal-info{
+    padding-left: 15px; padding-right: 15px;
+    margin-top: 3px; margin-bottom: 3px;
+}
+
+/*-------------------------Recipes Page - Main -----------------------------*/
 
 .btn-recipe {
     border-color: #36384a;
     border-width: 2px; 
 }
 
-/*------------------------All Recipes Pages----------------------*/
+/*------------------------All Recipes----------------------*/
 
 .back-to-recipes a i,
 .go-to-lunch a i,
@@ -171,8 +157,7 @@ footer {
     line-height: 10px;
     text-align: center;
     color: #fff;
-    background-color: #36384a;
-     
+    background-color: #36384a;   
 }
 
 .back-to-recipes a i:hover,
@@ -180,8 +165,7 @@ footer {
 .go-to-dinner a i:hover,
 .go-to-breakfast a i:hover  {
     color:#fff;
-    background-color: #7a7e9f;
-    
+    background-color: #7a7e9f;   
 }
 
 .you-will-need li {
