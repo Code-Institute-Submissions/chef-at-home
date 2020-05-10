@@ -154,12 +154,18 @@ footer {
     font-weight: bold;
     border-width: solid;
 }
-/*------------------------Recipes Pages----------------------*/
+
+/*-------------------------Recipes Page Main-----------------------------*/
+
+.btn-recipe {
+    border-color: #E8B5CE;
+}
+/*------------------------Individual Recipes Pages----------------------*/
 
 .back-to-recipes a i,
 .go-to-lunch a i,
 .go-to-dinner a i,
-.go-t0-breakfast a i {
+.go-to-breakfast a i {
     width: 32px;
     height: 32px;
     padding: 12px 0;
@@ -184,3 +190,4 @@ footer {
     list-style-type: none;
 
 }
+
