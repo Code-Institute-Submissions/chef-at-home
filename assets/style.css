@@ -158,7 +158,8 @@ footer {
 
 .back-to-recipes a i,
 .go-to-lunch a i,
-.go-to-dinner a i {
+.go-to-dinner a i,
+.go-t0-breakfast a i {
     width: 32px;
     height: 32px;
     padding: 12px 0;
@@ -173,7 +174,8 @@ footer {
 
 .back-to-recipes a i:hover,
 .go-to-lunch a i:hover,
-.go-to-dinner a i:hover  {
+.go-to-dinner a i:hover,
+.go-to-breakfast a i:hover  {
     color:#343148;
     background-color: #E8B5CE;
 }
