@@ -80,8 +80,7 @@ blockquote{
 footer {
     background-color: #615550;
     color: #E8B5CE;
-    min-height: 100px;
-    font-family: "Exo", sans-serif;
+    height: 65px;
 }
 
 .social-links li a i {
@@ -157,7 +156,9 @@ footer {
 }
 /*------------------------Recipes Pages----------------------*/
 
-.back-to-recipes p a i {
+.back-to-recipes a i,
+.go-to-lunch a i,
+.go-to-dinner a i {
     width: 32px;
     height: 32px;
     padding: 12px 0;
@@ -170,7 +171,9 @@ footer {
     
 }
 
-.back-to-recipes p a i:hover {
+.back-to-recipes a i:hover,
+.go-to-lunch a i:hover,
+.go-to-dinner a i:hover  {
     color:#343148;
     background-color: #E8B5CE;
 }
