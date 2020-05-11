@@ -7,8 +7,8 @@ html, body {
     height: 100%;
 }
 .full-height{
-    height: 100%;
-    margin: 0;
+    
+    
     background-color: #f2f2f5;
 }
 .uppercase{
@@ -93,8 +93,8 @@ blockquote {
 footer {
     background-color: #252734;
     height: 65px;
-    position: absolute;
-    bottom: 0;
+    
+    
     
     
 }
