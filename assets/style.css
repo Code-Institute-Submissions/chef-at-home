@@ -3,17 +3,24 @@
 
 
 /* -----special styling accross all pages----*/
-
+html, body {
+    height: 100%;
+}
+.full-height{
+    height: 100%;
+    margin: 0;
+    background-color: #f2f2f5;
+}
 .uppercase{
   text-transform: uppercase; 
 }
 .image-box {
     background-color: #7a7e9f ;
 }
-section {
-    background-color: #f2f2f5;
+.section{
     color: #20212c;
     font-family: "Roboto", sans-serif;
+    background-color: #f2f2f5;
 }
 .btn {
     color: #fff;
@@ -76,6 +83,7 @@ blockquote {
     margin-bottom: 2px;
     font-size: 18px;
     font-weight: 300;
+   
 }
 
 /*-------------------Footer---------------------*/
@@ -83,6 +91,8 @@ blockquote {
 footer {
     background-color: #252734;
     height: 65px;
+    
+    
 }
 .social-links li a i {
     width: 32px;
