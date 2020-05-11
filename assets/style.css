@@ -6,11 +6,6 @@
 html, body {
     height: 100%;
 }
-.full-height{
-    
-    
-    background-color: #f7f7f9;
-}
 .uppercase{
   text-transform: uppercase; 
 }
@@ -20,27 +15,23 @@ html, body {
 .section{
     color: #3b3d51;
     font-family: "Roboto", sans-serif;
-    background-color: #f2f2f5;
+    background-color: #f7f7f9;
 }
 .btn {
     color: #fff;
     background-color: #474962;
-    
-    font-size: 15px;
-    font-weight: bold;
+    font-weight: normal;
 }
 .btn:hover {
     background-color: #5e6282;
     color: #fff;
-    
-      
-    font-weight: bold;
+    font-weight: normal;
 }
 /*-----------Header section--------------*/
 
 header{
     background-color: #474962;
-    min-height: 75px;
+    min-height: 60px;
     font-family: "Roboto", sans-serif;
     color: #fff;
 }
@@ -50,13 +41,22 @@ header{
     font-size: 35px;
 }
 .nav li a{
-    color: #f7f7f9;    
+    color: #f7f7f9;
+    background-color: #474962;
+    font-weight: normal;   
 }
 .nav li a:hover{
-    color: #3b3d51;
-    
+    color: #f7f7f9;
+    background-color: #5e6282;
+    font-weight: normal;  
+    padding-top: 4px; padding-bottom: 4px; padding-left: 8px; padding-right: 8px;
 }
-
+.nav-link {
+    border: rounded;
+    padding-top: 4px; padding-bottom: 4px;
+    padding-right: 8px; padding-left: 8px;
+    border-radius: .25rem!important;
+}
 
 
 /*-----------Home page main section--------------*/
