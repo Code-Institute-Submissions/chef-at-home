@@ -24,17 +24,17 @@ html, body {
 }
 .btn {
     color: #fff;
-    background-color: #36384a;
-    border-width: 2px;
+    background-color: #474962;
+    
     font-size: 15px;
-    font-weight: bolder;
+    font-weight: bold;
 }
 .btn:hover {
     background-color: #5e6282;
-    color: #36384a;
-    border-color: #36384a;
-    border-width: 2px;  
-    font-weight: bolder;
+    color: #fff;
+    
+      
+    font-weight: bold;
 }
 /*-----------Header section--------------*/
 
@@ -50,11 +50,14 @@ header{
     font-size: 35px;
 }
 .nav li a{
-    color: #e4e5ec;    
+    color: #f7f7f9;    
 }
 .nav li a:hover{
-    color: #fff;
+    color: #3b3d51;
+    
 }
+
+
 
 /*-----------Home page main section--------------*/
 
@@ -125,14 +128,14 @@ footer {
     font-weight: normal;
 }
 .form-control{
-    border-color: #36384a;
+    border-color: #5e6282;
     border-width: 2px;
     margin-top: 2px; margin-bottom:2px;
-    background-color:#a6a9bf;
+    background-color: #5e6282;
     vertical-align: middle;
-    color: #3b3d51;
+    color: #fff;
     font-family: "Roboto", sans-serif; 
-    font-weight: bolder;
+    font-weight: normal;
 }
 .form-group input,
 .form-group textarea {
@@ -141,7 +144,7 @@ footer {
 .custom-select{
     display: block;
     height: 38px;
-    border-color: #36384a;
+    border-color: #5e6282;
     border-width: 2px;
     margin-top: 2px; margin-bottom: 2px;
     background-color: #fff;
@@ -153,12 +156,12 @@ footer {
     margin-top: 3px; margin-bottom: 3px;
 }
 
-/*-------------------------Recipes Page - Main -----------------------------*/
-
+/*-------------------------Recipes Page - Main ----------------------
 .btn-recipe {
     border-color: #36384a;
     border-width: 2px; 
 }
+-------*/
 
 /*------------------------All Recipes----------------------*/
 
@@ -170,11 +173,11 @@ footer {
     height: 32px;
     padding: 12px 0;
     border-radius: 50%;
-    font-size: 14px;
+    font-weight: normal;
     line-height: 10px;
     text-align: center;
     color: #fff;
-    background-color: #36384a;   
+    background-color: #474962;   
 }
 
 .back-to-recipes a i:hover,
@@ -182,7 +185,7 @@ footer {
 .go-to-dinner a i:hover,
 .go-to-breakfast a i:hover  {
     color:#fff;
-    background-color: #7a7e9f;   
+    background-color:#5e6282;   
 }
 
 .you-will-need li {
