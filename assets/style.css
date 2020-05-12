@@ -156,13 +156,19 @@ footer {
     margin-top: 3px; margin-bottom: 3px;
 }
 
-/*-------------------------Recipes Page - Main ----------------------
-.btn-recipe {
-    border-color: #36384a;
-    border-width: 2px; 
-}
--------*/
+/*-------------------------Recipes Page - Main ----------------------*/
 
+.recipe-box {
+    display: none;
+    color: #fff;
+    background-color: #5e6282;
+}
+.recipe-box:target {
+    display:block;
+}
+.you-will-need li {
+    list-style-type: none;
+}
 /*------------------------All Recipes----------------------*/
 
 .back-to-recipes a i,
