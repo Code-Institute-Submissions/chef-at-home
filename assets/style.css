@@ -163,6 +163,20 @@ footer {
     color: #fff;
     background-color: #5e6282;
 }
+#breakfastrecipe {
+    background-color: #f2d2d5;
+    color: #474962;
+}
+
+#lunchrecipe{
+    background-color: #cbe9d4;
+    color: #474962;
+}
+#dinnerrecipe{
+    background-color: #d0e7f9;
+    color: #474962;
+
+}
 .recipe-box:target {
     display:block;
 }
