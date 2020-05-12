@@ -179,7 +179,8 @@ footer {
 .recipe-box:target {
     display:block;
 }
-.you-will-need li {
+.you-will-need li,
+.method li {
     list-style-type: none;
 }
 .btn-recipe {
@@ -189,6 +190,5 @@ footer {
 }
 .btn-recipe:hover{
     color: #474962;
-    
     font-weight: normal;
 }
