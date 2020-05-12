@@ -22,7 +22,7 @@ html, body {
     background-color: #474962;
     font-weight: normal;
 }
-.btn:hover {
+.btn:hover {  
     background-color: #5e6282;
     color: #fff;
     font-weight: normal;
@@ -169,32 +169,13 @@ footer {
 .you-will-need li {
     list-style-type: none;
 }
-/*------------------------All Recipes----------------------*/
-
-.back-to-recipes a i,
-.go-to-lunch a i,
-.go-to-dinner a i,
-.go-to-breakfast a i {
-    width: 32px;
-    height: 32px;
-    padding: 12px 0;
-    border-radius: 50%;
-    font-weight: normal;
-    line-height: 10px;
-    text-align: center;
+.btn-recipe {
     color: #fff;
-    background-color: #474962;   
+    
+    font-weight: normal;
 }
-
-.back-to-recipes a i:hover,
-.go-to-lunch a i:hover,
-.go-to-dinner a i:hover,
-.go-to-breakfast a i:hover  {
-    color:#fff;
-    background-color:#5e6282;   
+.btn-recipe:hover{
+    color: #474962;
+    
+    font-weight: normal;
 }
-
-.you-will-need li {
-    list-style-type: none;
-}
-
