@@ -58,30 +58,25 @@
                     <div class="image-box rounded mx-1 my-1 p-2">
                         <img src="assets/images/pancakes-recipe.jpg" alt="Plates served up with pancakes and berries" class="rounded w-100 h-100">
                     </div>
+            <!--modal starts-->
                     <div class="modal fade" id="breakfastrecipe" tabindex="-1" role="dialog" aria-labelledby="pancakes" aria-hidden="true">
-                        <div class="modal-dialog modal-md">
-                            <div class="modal-content">
+                        <div class="modal-dialog modal-xl">
+                            <div class="modal-content breakfast-recipe-box">
                                 <div class="modal-header">
-                                    <div class="modal-title" id="pancakes">
-                                        <h4 class="mb-0 uppercase">Pancakes </h4>
-                                        <p class="font-weight-light"> prep: 5min | cook: 10min | serves: 2 </p>
+                                    <div class="modal-title col-12" id="pancakes">
+                                    <!-- intro part of the recipe-->
+                                        <h4 class="uppercase">Pancakes </h4>
+                                        <p class="font-weight-light mb-0"> prep-time: 5min | cook-time: 10min | serves: 2 </p>
                                     </div>
-                                <button type="button" class="close" data-dismiss="modal" aria-label="close"><span aria-hidden="true">&times;</span></button>
                                 </div>
-                                <div class="modal-body recipe-box text-left rounded mx-1 my-1 p-2">
-                            <!-- full breakfast recipe in detail-->
-                    <!-- intro part of the recipe-->
-                                    <div class="text-center">
-                                        <h6><a href="#breakfastimage" class="btn-recipe h2"><i class="fa fa-caret-up" aria-hidden="true"></i><span class="sr-only">hide full recipe</span></a> </h6>
-                                        <h4 class="mb-0 uppercase">Pancakes </h4>
-                                        <p class="font-weight-light"> prep: 5min | cook: 10min | serves: 2 </p>
-                                    </div>
-                    <!--ingredients part of the recipe-->
+                    <!-- full breakfast recipe in detail-->
+                                <div class="modal-body">   
+                    <!--ingredients list-->
                                     <div class="container">
-                                        <div class="row justify-content-center">
-                                            <h6 class="uppercase col-sm-8"> You will need:</h6>
+                                        <div class="row">
+                                            <h6 class="uppercase col"> You will need:</h6>
                                         </div>
-                                        <div class="row justify-content-center you-will-need">
+                                        <div class="row you-will-need justify-content-center text-left">
                                             <ul class="font-weight-light col-sm-6">
                                                 <li> 1 cup of oats</li>
                                                 <li> 1/2 cup of milk (we love it with oat milk, but it's your choice) </li>
@@ -100,10 +95,10 @@
                                             </ul>
                                         </div>
                                     </div>
-                    <!--how to make it part of the recipe-->
+                    <!--how to make the recipe-->
                                     <div class="container">
-                                        <div class="row justify-content-center">
-                                            <div class="col-sm-8">
+                                        <div class="row justify-content-center text-left">
+                                            <div class="col-sm-12">
                                             <h6 class="uppercase"> How to make it: </h6>
                                             <ul class="font-weight-light method">
                                                 <li>Put all of the ingredients into a blender or food processor and combine until it forms a smooth batter.</li>
@@ -115,7 +110,8 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="modal-footer"><button type="button" class="btn uppercase" data-dismiss="modal">close</button>
+                    <!--button to close full recipe and return to main recipes page-->
+                                <div class="modal-footer justify-content-center"><button type="button" class="btn uppercase" data-dismiss="modal">close</button>
         
                                 </div>
                             </div>
