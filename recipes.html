@@ -52,66 +52,86 @@
         <div class="container-fluid">
             <div class="row p-0 pb-2 justify-content-center">
         <!-- breakfast part starts here-->
-                 <div class="col-sm-4">
-                    <div class="recipe-title text-center">
-                        <a href="#breakfastrecipe" class="btn h2 m-2 uppercase"> Breakfast <i class="fa fa-caret-down" aria-hidden="true"></i><span class="sr-only">hide full recipe</span></a>
-                        <div class="recipe-box text-left rounded mx-1 my-1 p-2 overflow-auto" id="breakfastrecipe">
-                    <!--breakfast recipe appears on the click of the button-->
-                    <!-- full breakfast recipe in detail-->
-                    <!-- intro part of the recipe-->
-                            <div class="text-center">
-                                <h6><a href="#breakfastimage" class="btn-recipe h2"><i class="fa fa-caret-up" aria-hidden="true"></i><span class="sr-only">hide full recipe</span></a> </h6>
-                                <h4 class="mb-0 uppercase">Pancakes </h4>
-                                <p class="font-weight-light"> prep: 5min | cook: 10min | serves: 2 </p>
-                            </div>
-                    <!--ingredients part of the recipe-->
-                            <div class="container">
-                                <div class="row justify-content-center">
-                                    <h6 class="uppercase col-sm-8"> You will need:</h6>
-                                </div>
-                                <div class="row justify-content-center you-will-need">
-                                    <ul class="font-weight-light col-sm-6">
-                                        <li> 1 cup of oats</li>
-                                        <li> 1/2 cup of milk (we love it with oat milk, but it's your choice) </li>
-                                        <li> 1 ripe banana</li>
-                                        <li> pinch of salt (small pinch) </li>
-                                        <li> vanilla essence (if you have it)</li>
-                                        <li> maple syrup (if you have it)</li>
-                                    </ul>
-                                    <ul class="font-weight-light col-sm-6">
-                                        <li class="font-italic">topping options for serving:</li>
-                                        <li> honey </li>
-                                        <li> yoghurt </li>
-                                        <li> jam / marmalade </li>
-                                        <li> nutella</li>
-                                        <li> berries and/or fruit </li>                            
-                                    </ul>
-                                </div>
-                            </div>
-                    <!--how to make it part of the recipe-->
-                            <div class="container">
-                                <div class="row justify-content-center">
-                                    <div class="col-sm-8">
-                                    <h6 class="uppercase"> How to make it: </h6>
-                                    <ul class="font-weight-light method">
-                                        <li>Put all of the ingredients into a blender or food processor and combine until it forms a smooth batter.</li>
-                                        <li>Place a spoonfull of batter into a pre-heated and lightly oiled frying pan. </li>
-                                        <li>Flip the pancake after a couple minutes/once it's lightly browned. Repeat on the other side. </li>
-                                        <li>Serve with your choice of toppings. </li>
-                                    </ul>
+                <div class="col-sm-4 text-center">
+                    <button type="button" class="btn h2 m-2 uppercase" data-toggle="modal" data-target="#breakfastrecipe">breakfast</button>
+                    <!--breakfast image-->
+                    <div class="image-box rounded mx-1 my-1 p-2">
+                        <img src="assets/images/pancakes-recipe.jpg" alt="Plates served up with pancakes and berries" class="rounded w-100 h-100">
+                    </div>
+                    <div class="modal fade" id="breakfastrecipe" tabindex="-1" role="dialog" aria-labelledby="pancakes" aria-hidden="true">
+                        <div class="modal-dialog modal-md">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <div class="modal-title" id="pancakes">
+                                        <h4 class="mb-0 uppercase">Pancakes </h4>
+                                        <p class="font-weight-light"> prep: 5min | cook: 10min | serves: 2 </p>
                                     </div>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="close"><span aria-hidden="true">&times;</span></button>
+                                </div>
+                                <div class="modal-body recipe-box text-left rounded mx-1 my-1 p-2">
+                            <!-- full breakfast recipe in detail-->
+                    <!-- intro part of the recipe-->
+                                    <div class="text-center">
+                                        <h6><a href="#breakfastimage" class="btn-recipe h2"><i class="fa fa-caret-up" aria-hidden="true"></i><span class="sr-only">hide full recipe</span></a> </h6>
+                                        <h4 class="mb-0 uppercase">Pancakes </h4>
+                                        <p class="font-weight-light"> prep: 5min | cook: 10min | serves: 2 </p>
+                                    </div>
+                    <!--ingredients part of the recipe-->
+                                    <div class="container">
+                                        <div class="row justify-content-center">
+                                            <h6 class="uppercase col-sm-8"> You will need:</h6>
+                                        </div>
+                                        <div class="row justify-content-center you-will-need">
+                                            <ul class="font-weight-light col-sm-6">
+                                                <li> 1 cup of oats</li>
+                                                <li> 1/2 cup of milk (we love it with oat milk, but it's your choice) </li>
+                                                <li> 1 ripe banana</li>
+                                                <li> pinch of salt (small pinch) </li>
+                                                <li> vanilla essence (if you have it)</li>
+                                                <li> maple syrup (if you have it)</li>
+                                            </ul>
+                                            <ul class="font-weight-light col-sm-6">
+                                                <li class="font-italic">topping options for serving:</li>
+                                                <li> honey </li>
+                                                <li> yoghurt </li>
+                                                <li> jam / marmalade </li>
+                                                <li> nutella</li>
+                                                <li> berries and/or fruit </li>                            
+                                            </ul>
+                                        </div>
+                                    </div>
+                    <!--how to make it part of the recipe-->
+                                    <div class="container">
+                                        <div class="row justify-content-center">
+                                            <div class="col-sm-8">
+                                            <h6 class="uppercase"> How to make it: </h6>
+                                            <ul class="font-weight-light method">
+                                                <li>Put all of the ingredients into a blender or food processor and combine until it forms a smooth batter.</li>
+                                                <li>Place a spoonfull of batter into a pre-heated and lightly oiled frying pan. </li>
+                                                <li>Flip the pancake after a couple minutes/once it's lightly browned. Repeat on the other side. </li>
+                                                <li>Serve with your choice of toppings. </li>
+                                            </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modal-footer"><button type="button" class="btn uppercase" data-dismiss="modal">close</button>
+        
                                 </div>
                             </div>
                         </div>
                     </div>
+                </div>       
             <!--breakfast recipe ends-->
-            <!--breakfast image-->
-                    <div class="image-box rounded mx-1 my-1 p-2">
-                        <img src="assets/images/pancakes-recipe.jpg" alt="Plates served up with pancakes and berries" class="rounded w-100 h-100" id="breakfastimage">
-                    </div>
-                </div>
-        <!--breakfast part finishes-->
+            <!--breakfast part of the page ends-->
+            
+            
+        
         <!--lunch part starts-->
+
+            
+                    
+        
                 <div class="col-sm-4">
                     <div class="text-center">
                         <a href="#lunchrecipe" class="btn h2 m-2 uppercase"> Lunch <i class="fa fa-caret-down" aria-hidden="true"></i><span class="sr-only">hide full recipe</span></a>
@@ -269,7 +289,7 @@
                     </div>  
                 <!-- dinner part finishes-->
                 </div> 
-            </div>
+                </div>
         </div>
     </div>
 <!--recipes finish-->
