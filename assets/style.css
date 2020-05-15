@@ -168,6 +168,11 @@ footer {
 #dinnerrecipe {
     color: #474962;
 }
+.modal-content{
+    max-height: 600px;
+    max-width: 1000px;
+    overflow: auto;
+}
 .modal-header{
     border-bottom-color: #474962;
 }
