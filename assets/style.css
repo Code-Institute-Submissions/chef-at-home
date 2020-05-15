@@ -18,8 +18,7 @@ div .section{
     color: #3b3d51;
     font-family: "Roboto", sans-serif;
     background-color: #f7f7f9;
-
-   
+  
 }
 .btn {
     color: #fff;
@@ -182,8 +181,8 @@ footer {
 .recipe-box:target {
     display:block;
 }
-.you-will-need li,
-.method li {
+.you-will-need li
+ {
     list-style-type: none;
 }
 .btn-recipe {
