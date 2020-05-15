@@ -156,32 +156,31 @@ footer {
 
 .breakfast-recipe-box {
     background-color: #f2d2d5;
-    
 }
-#breakfastrecipe {
-    
+.lunch-recipe-box {
+    background-color: #cbe9d4;
+}
+.dinner-recipe-box{
+    background-color: #d0e7f9;
+}
+#breakfastrecipe,
+#lunchrecipe,
+#dinnerrecipe {
     color: #474962;
 }
-
 .modal-header{
     border-bottom-color: #474962;
 }
 .modal-footer{
     border-top-color: #474962;
 }
-#lunchrecipe{
-    background-color: #cbe9d4;
-    color: #474962;
-}
-#dinnerrecipe{
-    background-color: #d0e7f9;
-    color: #474962;
 
 }
 .recipe-box:target {
     display:block;
 }
-.you-will-need li
+.you-will-need li,
+.method li
  {
     list-style-type: none;
 }
