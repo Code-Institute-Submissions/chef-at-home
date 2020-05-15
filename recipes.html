@@ -129,7 +129,7 @@
                     </div>
             <!--modal starts-->
                     <div class="modal fade" id="lunchrecipe" tabindex="-1" role="dialog" aria-labelledby="pizza" aria-hidden="true">
-                        <div class="modal-dialog modal-xl">
+                        <div class="modal-dialog modal-xxl">
                             <div class="modal-content lunch-recipe-box">
                                 <div class="modal-header">
                                     <div class="modal-title col-12" id="pizza">
@@ -174,20 +174,20 @@
                                             <h6 class="uppercase m-1"> How to make it: </h6>
                                                 <div class="container-fluid method">
                                                 <div class="row justify-content-center">
-                                                    <ul class="col-sm-10 font-weight-light text-left">
+                                                    <ul class="col-sm-12 font-weight-light text-left">
                                                         <li class="font-italic"> sauce: </li>
                                                         <li>Before you start, turn on your oven to 200 fan/220 degrees & put your pizza dish in! </li>
                                                         <li>Pour all of the sauce ingredients into a saucepan and cook it for 5 minutes. </li>
                                                         <li>Take the pan off the hob and set aside. It is ready to go on to the pizza base later. </li>
                                                     </ul>
-                                                    <ul class="col-sm-10 font-weight-light text-left">
+                                                    <ul class="col-sm-12 font-weight-light text-left">
                                                         <li class="font-italic"> base: </li>
                                                         <li>Combine all of the base ingredients in a bow by using clean hands. Kid's love to get involved in this part so allow them to help you! </li>
                                                         <li>Keep on combining it until you form a smooth dough. </li>
                                                         <li>When you think it's done, put your formed dough-ball onto a lightly floured surface and kneed it for 2-3 min and let it rest for 10 min. </li>
                                                         <li>Now it's time to prepare your pizza-toppings & salad if you are having one! </li>
                                                     </ul>
-                                                    <ul class="col-sm-10 font-weight-light text-left">
+                                                    <ul class="col-sm-12 font-weight-light text-left">
                                                         <li class="font-italic"> finale: </li>
                                                         <li>Form a round shaped flat pizza base (or the shape of your baking tray!). </li>
                                                         <li>When you're happy with how it looks, put it onto the tray. </li>
@@ -210,86 +210,93 @@
                     </div>
                 </div>
             <!--lunch part of the page ends-->
-
-                                                      
-        <!-- dinner part starts-->
-                <div class="col-sm-4">
-                    <div class="recipe-title text-center">
-                        <a href="#dinnerrecipe" class="btn m-2"> Dinner <i class="fa fa-caret-down" aria-hidden="true"></i><span class="sr-only">hide full recipe</span></a>
-                        <div class="recipe-box text-left rounded mx-1 my-1 p-2" id="dinnerrecipe">
-                    <!--dinner recipe appears on the click of the button-->
-                    <!-- full dinner recipe in detail-->
-                    <!-- intro part of the recipe-->   
-                            <div class="text-center">
-                                <h6><a href="#dinnerimage" class="btn-recipe h2"><i class="fa fa-caret-up" aria-hidden="true"></i><span class="sr-only">hide full recipe</span></a>  </h6>
-                                <h4 class="mb-0 uppercase">Chickpea curry</h4>
-                                <p class="prep-time font-weight-light align-top text-lowercase"> prep: 10min | cook: 35min | serves: 4 </p>
-                            </div>
-                <!--ingredients section of the recipe-->
-                            <div class="container">
-                                <div class="row justify-content-center">
-                                    <h6 class="col-sm-8 uppercase"> You will need:</h6>
+            <!-- Dinner part starts-->
+                <div class="col-sm-4 text-center">
+                    <button type="button" class="btn h2 m-2 uppercase" data-toggle="modal" data-target="#dinnerrecipe">Lunch</button>
+                    <!--breakfast image-->
+                    <div class="image-box rounded mx-1 my-1 p-2">
+                        <img src="assets/images/curry-recipe.jpg" alt="a bowl of chickpea curry with rice" class="rounded w-100 h-100">
+                    </div>
+            <!--modal starts-->
+                    <div class="modal fade" id="dinnerrecipe" tabindex="-1" role="dialog" aria-labelledby="curry" aria-hidden="true">
+                        <div class="modal-dialog modal-xxl">
+                            <div class="modal-content dinner-recipe-box">
+                                <div class="modal-header">
+                                    <div class="modal-title col-12" id="curry">
+                                    <!-- intro part of the recipe-->
+                                        <h4 class="uppercase">chickpea curry</h4>
+                                        <p class="font-weight-light mb-0"> prep: 10min | cook: 35min | serves: 4 </p>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="container you-will-need">
-                                <div class="row justify-content-center">
-                                    <ul class="font-weight-light col-sm-4">
-                                        <li> 1 large onion </li>
-                                        <li> 2 large ripe tomatoes (or 400g tin tomatoes) </li>
-                                        <li> 1 fresh chilli pepper </li>
-                                        <li> 3 tbs fresh corriander </li>
-                                    </ul>
-                                    <ul class="font-weight-light col-sm-4">
-                                        <li> tsb grated ginger </li>
-                                        <li> 400g coconut milk </li>
-                                        <li> 400g chickpeas (cooked)</li>
-                                        <li> a wedge of lemon </li>
-                                        <li> rice for serving </li>
-                                    </ul>
-                                    <ul class="ingredients font-weight-light col-sm-4">
-                                        <li class=" font-weight-normal font-italic"> spices: </li>
-                                        <li> tsp turmeric </li>
-                                        <li> 1/2 tsp chilli powder </li>
-                                        <li> tsp garam masala </li>
-                                    </ul>
+                    <!-- full lunch recipe in detail-->
+                                <div class="modal-body">   
+                    <!--ingredients list-->
+                                    <div class="container">
+                                        <div class="row">
+                                            <h6 class="uppercase col m-1"> You will need:</h6>
+                                        </div>
+                                        <div class="container you-will-need">
+                                            <div class="row justify-content-center">
+                                                <ul class="font-weight-light col-sm-4">
+                                                    <li> 1 large onion </li>
+                                                    <li> 2 large ripe tomatoes (or 400g tin tomatoes) </li>
+                                                    <li> 1 fresh chilli pepper </li>
+                                                    <li> 3 tbs fresh corriander </li>
+                                                </ul>
+                                                <ul class="font-weight-light col-sm-4">
+                                                    <li> tsb grated ginger </li>
+                                                    <li> 400g coconut milk </li>
+                                                    <li> 400g chickpeas (cooked)</li>
+                                                    <li> a wedge of lemon </li>
+                                                    <li> rice for serving </li>
+                                                </ul>
+                                                <ul class="ingredients font-weight-light col-sm-4">
+                                                    <li class=" font-weight-normal font-italic"> spices: </li>
+                                                    <li> tsp turmeric </li>
+                                                    <li> 1/2 tsp chilli powder </li>
+                                                    <li> tsp garam masala </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                    <!--how to make the recipe-->
+                                    <div class="container">
+                                        <div class="row justify-content-center">
+                                            <div class="col-sm-12">
+                                            <h6 class="uppercase m-1"> How to make it: </h6>
+                                                <div class="container-fluid method">
+                                                    <div class="container method">
+                                                        <div class="row justify-content-center">
+                                                        <ul class="font-weight-light col-sm-8"> 
+                                                            <li>Chop: onion, tomatoes, chillies, coriander, ginger and set a side. </li>
+                                                            <li>Use a large saucepan to heat a tablespoon of oil (I use groundnut oil for this curry but you can you whatever you have). </li>
+                                                            <li>Tip in your chopped onion and cook it for about 5min on a medium heat stirring regularly. Don't allow it to change colour. </li>
+                                                            <li>Mix all of your spices in a small bowl with a splash of water, then scoop it into the pan with onions. </li>
+                                                            <li>Once the seasonings coated the onions and are toasted, toss your tomatoes, ginger and chillies into the pan. </li>
+                                                            <li>Allow to cook for 2-3min then pour in enough water to just cover the contents. </li>
+                                                            <li>Season with a pinch of salt. Stir regularly! </li>
+                                                            <li>Pour coconut milk, bring it to simmer and then tip your chickpeas into the pan. </li>
+                                                            <li>Bring it all to simmer and reduce the heat. Cook for futher 15-20min. </li>
+                                                            <li>Stir in chopped coriander once the heat is switched off. </li>
+                                                            <li>Serve on a bed of boiled rice and squeeze lemon juice on top. </li>
+                                                        </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
-                            </div>  
-                        
-                    <!-- ingredients section ends-->
-                    <!-- how to make it part starts-->
-                            
-                            <div class="container">
-                                <div class="row justify-content-center">
-                                    <h6 class="uppercase col-sm-8"> How to make it: </h6>
-                                </div>
-                            </div>
-                            <div class="container method">
-                                <div class="row justify-content-center">
-                                    <ul class="font-weight-light col-sm-8"> 
-                                        <li>Chop: onion, tomatoes, chillies, coriander, ginger and set a side. </li>
-                                        <li>Use a large saucepan to heat a tablespoon of oil (I use groundnut oil for this curry but you can you whatever you have). </li>
-                                        <li>Tip in your chopped onion and cook it for about 5min on a medium heat stirring regularly. Don't allow it to change colour. </li>
-                                        <li>Mix all of your spices in a small bowl with a splash of water, then scoop it into the pan with onions. </li>
-                                        <li>Once the seasonings coated the onions and are toasted, toss your tomatoes, ginger and chillies into the pan. </li>
-                                        <li>Allow to cook for 2-3min then pour in enough water to just cover the contents. </li>
-                                        <li>Season with a pinch of salt. Stir regularly! </li>
-                                        <li>Pour coconut milk, bring it to simmer and then tip your chickpeas into the pan. </li>
-                                        <li>Bring it all to simmer and reduce the heat. Cook for futher 15-20min. </li>
-                                        <li>Stir in chopped coriander once the heat is switched off. </li>
-                                        <li>Serve on a bed of boiled rice and squeeze lemon juice on top. </li>
-                                    </ul>
+                    <!--button to close full recipe and return to main recipes page-->
+                                <div class="modal-footer justify-content-center">
+                                    <button type="button" class="btn uppercase" data-dismiss="modal">close</button>
                                 </div>
                             </div>
                         </div>
                     </div>
-                <!--dinner recipe ends-->
-                <!-- dinner image-->
-                    <div class="image-box rounded mx-1 my-1 p-2">
-                        <img src="assets/images/curry-recipe.jpg" alt="a bowl of chickpea curry with rice" class="rounded w-100 h-100" id="dinnerimage">
-                    </div>  
-                <!-- dinner part finishes-->
-                </div> 
                 </div>
+            <!--Dinner part ends here-->
+            </div>
         </div>
     </div>
 <!--recipes finish-->
