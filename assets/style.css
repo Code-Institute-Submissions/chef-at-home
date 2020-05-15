@@ -155,15 +155,21 @@ footer {
 
 /*-------------------------Recipes Page ----------------------*/
 
-.recipe-box {
-    
+.breakfast-recipe-box {
+    background-color: #f2d2d5;
     
 }
 #breakfastrecipe {
-    background-color: #f2d2d5;
+    
     color: #474962;
 }
 
+.modal-header{
+    border-bottom-color: #474962;
+}
+.modal-footer{
+    border-top-color: #474962;
+}
 #lunchrecipe{
     background-color: #cbe9d4;
     color: #474962;
