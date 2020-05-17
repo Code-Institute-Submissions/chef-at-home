@@ -87,9 +87,11 @@ For more information on the process here: https://help.github.com/en/github/crea
     (9) https://unsplash.com/@the_modern_life_mrs
     (10) https://unsplash.com/@miracletwentyone
 
-2. Utilised Font Awesome for all social media icons: https://fontawesome.com/
-3. Color palets and mixers identified here: https://www.w3schools.com/w3css/w3css_color_generator.asp https://www.w3schools.com/colors/colors_mixer.asp
+2. I utilised Font Awesome for all social media icons: https://fontawesome.com/
+3. Color paletts and mixers identified here: https://www.w3schools.com/w3css/w3css_color_generator.asp https://www.w3schools.com/colors/colors_mixer.asp
 4. I have used my laptop's own MS Paint to compress jpg images.
 5. I have used my laptop's own MS Edit with Photos to apply the same size (aspect ratio 10:8) and filter (Rouge) to all of the images used on the website. 
+6. I used snippet tool for the screengrabs utilised in the README.md.
 
 ## Acknowledgements
+
