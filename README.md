@@ -11,19 +11,20 @@ The purpose of the website is to present the information about the workshops:
 2. who they are designed for
 3. what you will learn and 
 4. why we are doing this. 
+
 I also wanted to make sure the website is intuitive, easy to navigate and not overloaded with too much unnecesary content. It was also very important to me that the user feels welcomed, wants to stay on the page, feels drawn to get to know us and book a workshop.
 
 ### User Stories
-* As a parent, I want to make child friendliness.
+* As a parent, I want to make sure child friendliness.
 * As a young professional, I don't want to waste my time I don't have for overcomplications.
 * I am vegan/vegetarian and I want to make sure the workshops are tailored to suit my diet.
-* As somebody who wants to "try before you buy" I want to have sample recipies to try at home before considering to book a workshop.
+* As somebody who wants to "try before you buy" I want to have sample recipies to try at home before considering to booking a workshop.
 
 ## Features
 ### Existing Features
-* __Navigation in the header__ Allows the user to navigate through pages.
-* __Home Page__ - A brief introduction with the welcome message, short description who we are and our vision. Home page also has a few images taken from previous workshops as well as client testimonials. Testimonials have a short message, clients picture as well as the platform where they have shared their experience.
-* __Recipes Page__ - The user is given an option to view and try some recipes at home. By clicking on the buttons BREAKFAST, LUNCH, DINNER allows the user to trigger a modal which displays the recipe. To view the recipe in full the user will see a scroll on the right hand side of the pop-up window. The user has two options to exit the recipe: 1) close button at the top of the page and 2) close button at the bottom of the page.
+* __Header navigation buttons__ - Allows the user to navigate through pages back and forth: Home, Recipes, Workshop.
+* __Home Page__ - Includes a brief introduction, a few images taken from previous workshops (assumed) as well as client testimonials (to build trust and add credibility).
+* __Recipes Page__ - Page showcases an option to view and try some recipes at home. By clicking on the buttons BREAKFAST, LUNCH, DINNER the user triggers a modal, which displays recipes on a pop-up box. The user will navigate the pop-up with the scroll on the right hand side. To exit the recipe: 1) click close button at the top of the page and 2) close button at the bottom of the page.
 * __Workshop Page__ - This page showcases a form for the user to fill in. Form has Name and Email Address as mandatory requirement to fill in. Also, form will not allow submission if the consent button is ticked. Two sections of the form (Workshop & Date and Select Party Size) allows the user to choose appropriate option for their needs. I have also included "Do we need to know anything else" option, in case the user would like to share any important information we need to know or if the party size is larger than the option given or they would like more tailored service during their workshop. The text box area can be expanded/reduced to suit the users preference.
 * __Social links in the footer__ - Provides the user with the option to connect with us via social media platforms as well as send us an email directly.
 ### Features Left to Implement
