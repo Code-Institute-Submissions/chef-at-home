@@ -37,31 +37,30 @@ I also wanted to make sure the website is intuitive, easy to navigate and not ov
 1. **HTML (hyper text markup language):** Utilised to build all of the pages of the web site. More information on this language here: https://www.w3schools.com/html/default.asp 
 2. **CSS (cascading style sheets):** Allows to style different elements of the page, such as color, fonts, size, etc. More information on this language here: https://www.w3schools.com/css/default.asp
 3. **Bootstrap:** A pre-customised CSS templates, allowing the coder to quickly create responsive, mobile-first front-end websites. More information about this framework here: https://getbootstrap.com/
-4. **GitHub:** A vendor providing a hosting for software development and its version control when you use Git. Read more here: https://github.4. 
+4. **GitHub:** A vendor providing a hosting for software development and its version control when you use Git. Read more here: https://github.4 
 5. **Gitpod:** I have heavily utilised this online IDE to create and save code, which is run in a browser. You do not need to install the software onto your PC.  More information about this IDE here: https://www.gitpod.io/
 6. **Git:** Allows to track and control changes made in source code during the development. Read more here: https://git-scm.com/
 7. **Chrome DevTools:** I have heavily relied on using these web developer tools that are built into Google Chrome browser directly. These tools allowed me to quickly spot styling changes that need modification as well as trial new CSS before implementing it in the source code. You can find more information about this excellent bit of kit here: https://developers.google.com/web/tools/chrome-devtools
 8. **W3C Markup Validation Service:** I used this website to validate my css and html at the end of the software development as a spotcheck for errors. More information here: https://validator.w3.org/#validate_by_input
 
 ## Testing
+NEED TO WRITE UP!
+
 ## Deployment
-1. I created an account on Github: https://github.com/neringabickmore
-2. I have used full Code institute template (https://github.com/Code-Institute-Org/gitpod-full-template) and created the following repository: https://github.com/neringabickmore/MS1-project
-3. To publish the project for public view I have following the below steps: 
-    
+1. I created an account on GitHub: https://github.com/neringabickmore
+2. I have used full Code Institute gitpod template (https://github.com/Code-Institute-Org/gitpod-full-template) and created the following repository: https://github.com/neringabickmore/MS1-project
+3. To publish the project for public view I have followed below steps: 
         (1) Went to settings in the repository;
-        (2) Scrolled to the heading "GitHub Pages"
-        (3) The source settings have a drop down menu where I selected master branch for publishing, which I then saved. 
+        (2) Scrolled to the heading "GitHub Pages";
+        (3) The source settings have a drop down menu where I selected master branch for publishing, which I then saved;
         (4) My site was then published at: https://neringabickmore.github.io/MS1-project/
-4. To run the code on your computer, follow the path to my repository where you will see the following:
+4. To run the code on your computer, follow the link for my repository (https://github.com/neringabickmore/MS1-project) where you will see the following:
 <img src="assets/images/run-code-1.JPG" style="margin: 0;">
 5. You can select to clone or download the code (clone with HTTP, open in descktop or download a zip file)
-
 6. To clone the repository, you can: 
-
-            (1) Open in Git Bash
-            (2) Change the location where you want to re-direct the clone
-            (3) Type up the git clone, paste the URL (https://github.com/neringabickmore/MS1-project.git) and press enter to create your local clone.
+        (1) Open in Git Bash
+        (2) Change the location where you want to re-direct the clone
+        (3) Type up the git clone, paste the URL (https://github.com/neringabickmore/MS1-project.git) and press enter to create your local clone.
 
 For more information on the process here: https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository 
 ###### *Gitpod Reminder: To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type: `python3 -m http.server`
