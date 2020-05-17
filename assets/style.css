@@ -55,7 +55,6 @@ header{
     padding-top: 4px; padding-bottom: 4px; padding-left: 8px; padding-right: 8px;
 }
 .nav-link {
-    border: rounded;
     padding-top: 4px; padding-bottom: 4px;
     padding-right: 8px; padding-left: 8px;
     border-radius: .25rem!important;
