@@ -61,4 +61,17 @@ For more information on the process here: https://help.github.com/en/github/crea
 ###### *Gitpod Reminder: To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type: `python3 -m http.server`
 
 ## Credits
+### Content
+ 1. HTML & CSS (and some JS to activate modal) code templates identified on Bootstrap documentation (https://getbootstrap.com/docs/4.5/getting-started/introduction/)
+ 2. Modal inspiration: https://codepen.io/Eventyret/pen/ExVeOme?editors=1010
+ 3. I have identified font styles using Google Fonts: https://fonts.google.com/
+
+
+### Media
+1. All images are taken from: https://unsplash.com/photos/
+2. Utilised Font Awesome for all social media icons: https://fontawesome.com/
+3. Color palets and mixers identified here: https://www.w3schools.com/w3css/w3css_color_generator.asp https://www.w3schools.com/colors/colors_mixer.asp
+4. I have used my laptop's own MS Paint to compress jpg images.
+5. I have used my laptop's own MS Edit with Photos to apply the same size (aspect ratio 10:8) and filter (Rouge) to all of the images used on the website. 
+
 ## Acknowledgements
