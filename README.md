@@ -1,19 +1,23 @@
-## Cheft at home - first assignment at Code Institute (https://codeinstitute.net/)
+## Cheft at home - First Milestone Project - Code Institute (https://codeinstitute.net/)
 <img src="assets/images/logo.JPG" style="margin: 0;">
 
-The aim of the project is to showcase my ability to design and build a static web page using html, css and bootstrap for my first milestone project at Code Institute to becoming a Full Stack Developer. 
+The aim of the project is to showcase my ability to design and build a static web page using HTML, CSS and Bootstrap for my First Milestone project at Code Institute, Full Stack Developer. 
 
-The focus of the project is to build a website for the audience who would like to learn how to cook and invite them to join the workshops. This is a fictional website with potential for a real business venture. In the future, this website could improve by incorporating the "how to" videos and recipe demo videos. It would also have an option for "basket" and online payment. 
+The focus of the project is to build a website for the audience who would like to learn how to cook and invite them to join the workshops. This is a fictional website with a potential for a real business venture. In the future, this website can improve by incorporating the "how to/recipe demo" videos. It would also be advantagerous to have a "shopping basket" with online payment capabilities as well as user account for returning customers. 
 
 ## UX
-The purpose of the website is to present the information about the workshops: what they are, who they are for, what you will learn and why we are doing this. I also wanted to make sure the website is simple, easy to navigate, not overloaded with too much text and pleasant to the eye so that the user stays on the page and books a workshop.
+The purpose of the website is to present the information about the workshops: 
+1. what they are
+2. who they are designed for
+3. what you will learn and 
+4. why we are doing this. 
+I also wanted to make sure the website is intuitive, easy to navigate and not overloaded with too much unnecesary content. It was also very important to me that the user feels welcomed, wants to stay on the page, feels drawn to get to know us and book a workshop.
 
 ### User Stories
-
-* As a parent, I want to make sure its child friendly.
-* As a young professional, I don't want to waste my time I don't have.
+* As a parent, I want to make child friendliness.
+* As a young professional, I don't want to waste my time I don't have for overcomplications.
 * I am vegan/vegetarian and I want to make sure the workshops are tailored to suit my diet.
-* As somebody who wants to test before you buy - do I have sample recipies to try at home before going on a workshop.
+* As somebody who wants to "try before you buy" I want to have sample recipies to try at home before considering to book a workshop.
 
 ## Features
 ### Existing Features
@@ -40,7 +44,7 @@ The purpose of the website is to present the information about the workshops: wh
 
 ## Testing
 ## Deployment
-1. I created an account on Github. My account: https://github.com/neringabickmore
+1. I created an account on Github: https://github.com/neringabickmore
 2. I have used full Code institute template (https://github.com/Code-Institute-Org/gitpod-full-template) and created the following repository: https://github.com/neringabickmore/MS1-project
 3. To publish the project for public view I have following the below steps: 
     
@@ -51,6 +55,7 @@ The purpose of the website is to present the information about the workshops: wh
 4. To run the code on your computer, follow the path to my repository where you will see the following:
 <img src="assets/images/run-code-1.JPG" style="margin: 0;">
 5. You can select to clone or download the code (clone with HTTP, open in descktop or download a zip file)
+
 6. To clone the repository, you can: 
 
             (1) Open in Git Bash
