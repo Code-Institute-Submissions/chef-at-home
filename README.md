@@ -37,11 +37,11 @@ I also wanted to make sure the website is intuitive, easy to navigate and not ov
 1. **HTML (hyper text markup language):** Utilised to build all of the pages of the web site. More information on this language here: https://www.w3schools.com/html/default.asp 
 2. **CSS (cascading style sheets):** Allows to style different elements of the page, such as color, fonts, size, etc. More information on this language here: https://www.w3schools.com/css/default.asp
 3. **Bootstrap:** A pre-customised CSS templates, allowing the coder to quickly create responsive, mobile-first front-end websites. More information about this framework here: https://getbootstrap.com/
-4. **Gitpod:** I have heavily utilised this online IDE to create and save code which is run in a browser. You do not need to install the software onto your PC.  More information about this IDE here: https://www.gitpod.io/
-5. **Git:** Allows to track and control changes made in source code during the development. Read more here: https://git-scm.com/
-6. **GitHub:** A vendor providing a hosting for software development and its version control when you use Git. Read more here: https://github.
-7. **Chrome DevTools:** I have heavili relied on using these web developer tools that are built into Google Chrome browser directly. This tool allowed me to quickly spot styling changed needing modification as well as trialling new css before using it. You can find more information about this excellent bit of kit here: https://developers.google.com/web/tools/chrome-devtools
-8. **W3C Markup Validation Service:** I used this to validate my css and html at the end of the software development as a spotcheck for errors. More information here: https://validator.w3.org/#validate_by_input
+4. **GitHub:** A vendor providing a hosting for software development and its version control when you use Git. Read more here: https://github.4. 
+5. **Gitpod:** I have heavily utilised this online IDE to create and save code, which is run in a browser. You do not need to install the software onto your PC.  More information about this IDE here: https://www.gitpod.io/
+6. **Git:** Allows to track and control changes made in source code during the development. Read more here: https://git-scm.com/
+7. **Chrome DevTools:** I have heavily relied on using these web developer tools that are built into Google Chrome browser directly. These tools allowed me to quickly spot styling changes that need modification as well as trial new CSS before implementing it in the source code. You can find more information about this excellent bit of kit here: https://developers.google.com/web/tools/chrome-devtools
+8. **W3C Markup Validation Service:** I used this website to validate my css and html at the end of the software development as a spotcheck for errors. More information here: https://validator.w3.org/#validate_by_input
 
 ## Testing
 ## Deployment
