@@ -5,11 +5,6 @@ The aim of the project is to showcase my ability to design and build a static we
 
 The focus of the project is to build a website for the audience who would like to learn how to cook and invite them to join the workshops. This is a fictional website with potential for a real business venture. In the future, this website could improve by incorporating the "how to" videos and recipe demo videos. It would also have an option for "basket" and online payment. 
 
-## Gitpod Reminder
-
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
-`python3 -m http.server`
-
 ## UX
 The purpose of the website is to present the information about the workshops: what they are, who they are for, what you will learn and why we are doing this. I also wanted to make sure the website is simple, easy to navigate, not overloaded with too much text and pleasant to the eye so that the user stays on the page and books a workshop.
 
@@ -45,5 +40,23 @@ The purpose of the website is to present the information about the workshops: wh
 
 ## Testing
 ## Deployment
+1. I created an account on Github. My account: https://github.com/neringabickmore
+2. I have used full Code institute template (https://github.com/Code-Institute-Org/gitpod-full-template) and created the following repository: https://github.com/neringabickmore/MS1-project
+3. To publish the project for public view I have following the below steps: 
+    (1) Went to settings in the repository
+    (2) Scrolled to the heading "GitHub Pages"
+    (3) The source settings have a drop down menu where I selected master branch for publishing, which I then saved. 
+    (4) My site was then published at: https://neringabickmore.github.io/MS1-project/
+4. To run the code on your computer, follow the path to my repository where you will see the following:
+<img src="assets/images/run-code-1.JPG" style="margin: 0;">
+5. You can select to clone or download the code (clone with HTTP, open in descktop or download a zip file)
+6. To clone the repository, you can: 
+    * Open in Git Bash
+    * Change the location where you want to re-direct the clone
+    * Type up the git clone, paste the URL (https://github.com/neringabickmore/MS1-project.git) and press enter to create your local clone.
+
+You can find more information on the process here: https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository 
+###### *Gitpod Reminder: To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type: `python3 -m http.server`
+
 ## Credits
 ## Acknowledgements
