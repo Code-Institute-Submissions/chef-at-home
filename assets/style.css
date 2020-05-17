@@ -183,7 +183,7 @@ footer {
     display:block;
 }
 .you-will-need li,
-.method{
+li .method{
     list-style-type: none;
 }
 
