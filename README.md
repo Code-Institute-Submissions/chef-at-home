@@ -27,8 +27,18 @@ The purpose of the website is to present the information about the workshops: wh
 * __Recipes Page__ - The user is given an option to view and try some recipes at home. By clicking on the buttons BREAKFAST, LUNCH, DINNER allows the user to trigger a modal which displays the recipe. To view the recipe in full the user will see a scroll on the right hand side of the pop-up window. The user has two options to exit the recipe: 1) close button at the top of the page and 2) close button at the bottom of the page.
 * __Workshop Page__ - This page showcases a form for the user to fill in. Form has Name and Email Address as mandatory requirement to fill in. Also, form will not allow submission if the consent button is ticked. Two sections of the form (Workshop & Date and Select Party Size) allows the user to choose appropriate option for their needs. I have also included "Do we need to know anything else" option, in case the user would like to share any important information we need to know or if the party size is larger than the option given or they would like more tailored service during their workshop. The text box area can be expanded/reduced to suit the users preference.
 * __Social links in the footer__ - Provides the user with the option to connect with us via social media platforms as well as send us an email directly.
-### Features Left fo Implement
+### Features Left to Implement
 * __Recipe Demo__ - This feature is for showcasing how to prepare the meals in a video format. 
 * __Workshop Page__ - BOOK button to enable the user to pay online.
 * __Basket__ - Feature allowing the user to select multiple workshops and adding them to the basket to pay later.
 * __Returning User__ - Allow the returning user to create their profile to keep on learning new skills.
+
+## Technologies Used
+1. **HTML (hyper text markup language):** Utilised to build all of the pages of the web site. More information on this language here: https://www.w3schools.com/html/default.asp 
+2. **CSS (cascading style sheets):** Allows to style different elements of the page, such as color, fonts, size, etc. More information on this language here: https://www.w3schools.com/css/default.asp
+3. **Bootstrap:** A pre-customised CSS templates, allowing the coder to quickly create responsive, mobile-first front-end websites. More information about this framework here: https://getbootstrap.com/
+4. **Gitpod:** I have heavily utilised this online IDE to create and save code which is run in a browser. You do not need to install the software onto your PC.  More information about this IDE here: https://www.gitpod.io/
+5. **Git:** Allows to track and control changes made in source code during the development. Read more here: https://git-scm.com/
+6. **GitHub:** A vendor providing a hosting for software development and its version control when you use Git. Read more here: https://github.
+7. **Chrome DevTools:** I have heavili relied on using these web developer tools that are built into Google Chrome browser directly. This tool allowed me to quickly spot styling changed needing modification as well as trialling new css before using it. You can find more information about this excellent bit of kit here: https://developers.google.com/web/tools/chrome-devtools
+8. **W3C Markup Validation Service:** I used this to validate my css and html at the end of the software development as a spotcheck for errors. More information here: https://validator.w3.org/#validate_by_input
