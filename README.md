@@ -44,7 +44,31 @@ I also wanted to make sure the website is intuitive, easy to navigate and not ov
 8. **W3C Markup Validation Service:** I used this website to validate my css and html at the end of the software development as a spotcheck for errors. More information here: https://validator.w3.org/#validate_by_input
 
 ## Testing
-NEED TO WRITE UP!
+1. I have used http://ami.responsivedesign.is/ to see how the site would load on different Apple devices. I have also tested the site on iPhone X, Ipad mini and Ipad. Icons performed as anticipated. I have also used this website for a screenshot at the top of this document. 
+2. Desktop
+
+    * Google Chrome, Microsoft Edge; all pages and links on the pages work as anticipated, including on small, medium and lage displays. I also used developer tools on Chrome to test differnt viewpoint sizes. 
+3. Mobile 
+
+    * Used iPhone X, Huawei Pro20 and Pro 30 to testt. All pages, links and icons performed well. 
+
+4. Workshop form
+
+    (1) Go to workshop.html page
+    (2) Try to submit the form without a Name. Error message will appear asking you to input the info.
+    (3) Try to submit the form without an email Address. Error message will appear asking you to input a correct email address.
+    (4) Try to submit the form without ticking a consent box. Error message will appear asking you to provide consent.
+    (5) Try to expand/reduce size of the comment box.
+
+5. Footer 
+
+    (1) Try to click on email icon. This should trigger default email programme on your device. The emails go to fake inbox currently. PLease do not attempt to send the email at this stage.
+    (2) Try to click on social media buttons. This should trigger a new browser window opening up home page links of the social media channels. 
+
+6. Recipes Page
+    (1) Try to click on the three buttons: BREAKFAST, LUNCH, DINNER. Separate recipes should be on display. Please note, the system can only dispaly one recipe at a given time.
+    (2) Try scrolling down the recipe using the scroll button on the right side of the box (up and down)
+    (3) To close the opened recipe, please try x at the top of the box or CLOSE button at the end of it. 
 
 ## Deployment
 1. I created an account on GitHub: https://github.com/neringabickmore
