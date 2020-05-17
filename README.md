@@ -62,18 +62,31 @@ NEED TO WRITE UP!
         (2) Change the location where you want to re-direct the clone
         (3) Type up the git clone, paste the URL (https://github.com/neringabickmore/MS1-project.git) and press enter to create your local clone.
 
+
 For more information on the process here: https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository 
 ###### *Gitpod Reminder: To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type: `python3 -m http.server`
 
 ## Credits
 ### Content
- 1. HTML & CSS (and some JS to activate modal) code templates identified on Bootstrap documentation (https://getbootstrap.com/docs/4.5/getting-started/introduction/)
+ 1. HTML & CSS (and JS to activate modal) code templates identified on Bootstrap documentation (https://getbootstrap.com/docs/4.5/getting-started/introduction/)
  2. Modal inspiration: https://codepen.io/Eventyret/pen/ExVeOme?editors=1010
  3. I have identified font styles using Google Fonts: https://fonts.google.com/
 
 
 ### Media
-1. All images are taken from: https://unsplash.com/photos/
+1. All images are taken from: https://unsplash.com/photos/. I have used the following artists images: 
+
+    (1) https://unsplash.com/@marius_dragne
+    (2) https://unsplash.com/@catalinnp
+    (3) https://unsplash.com/@minkmingle
+    (4) https://unsplash.com/@calumlewis
+    (5) https://unsplash.com/@anniespratt
+    (6) https://unsplash.com/@danedeaner
+    (7) https://unsplash.com/@sadswim
+    (8) https://unsplash.com/@allentaylorjr
+    (9) https://unsplash.com/@the_modern_life_mrs
+    (10) https://unsplash.com/@miracletwentyone
+
 2. Utilised Font Awesome for all social media icons: https://fontawesome.com/
 3. Color palets and mixers identified here: https://www.w3schools.com/w3css/w3css_color_generator.asp https://www.w3schools.com/colors/colors_mixer.asp
 4. I have used my laptop's own MS Paint to compress jpg images.
