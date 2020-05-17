@@ -179,23 +179,12 @@ footer {
 .modal-footer{
     border-top-color: #474962;
 }
-
-}
 .recipe-box:target {
     display:block;
 }
 .you-will-need li,
-.method li
- {
+.method{
     list-style-type: none;
 }
-.btn-recipe {
-    color: #474962;
-    
-    font-weight: normal;
-}
-.btn-recipe:hover{
-    color: #474962;
-    font-weight: normal;
-}
+
 
