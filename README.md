@@ -1,6 +1,6 @@
-# MS1-project
-The focus of this project is to build a website for the cookery workshops. 
-<img src="assets/images/logo.jpg" style="margin: 0;">
+# Neringa Bickmore - MS1-project
+The focus of this project is to build a website to attract the audience to the cookery workshops. This is a fictional website with a potential for a true business venture. 
+<img src="assets/images/logo.JPG" style="margin: 0;">
 
 ## Gitpod Reminder
 
