@@ -42,3 +42,8 @@ The purpose of the website is to present the information about the workshops: wh
 6. **GitHub:** A vendor providing a hosting for software development and its version control when you use Git. Read more here: https://github.
 7. **Chrome DevTools:** I have heavili relied on using these web developer tools that are built into Google Chrome browser directly. This tool allowed me to quickly spot styling changed needing modification as well as trialling new css before using it. You can find more information about this excellent bit of kit here: https://developers.google.com/web/tools/chrome-devtools
 8. **W3C Markup Validation Service:** I used this to validate my css and html at the end of the software development as a spotcheck for errors. More information here: https://validator.w3.org/#validate_by_input
+
+## Testing
+## Deployment
+## Credits
+## Acknowledgements
