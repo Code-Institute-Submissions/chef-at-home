@@ -25,12 +25,12 @@ I also wanted to make sure the website is intuitive, easy to navigate and not ov
 * __Header navigation buttons__ - Allows the user to navigate through pages back and forth: Home, Recipes, Workshop.
 * __Home Page__ - Includes a brief introduction, a few images taken from previous workshops (assumed) as well as client testimonials (to build trust and add credibility).
 * __Recipes Page__ - Page showcases an option to view and try some recipes at home. By clicking on the buttons BREAKFAST, LUNCH, DINNER the user triggers a modal, which displays recipes on a pop-up box. The user will navigate the pop-up with the scroll on the right hand side. To exit the recipe: 1) click close button at the top of the page and 2) close button at the bottom of the page.
-* __Workshop Page__ - This page showcases a form allowing to book a workshop. Form has Name and Email Address set as mandatory requirement. Also, the form will not allow submission if the consent button is ticked. Two sections of the form (Workshop & Date and Select Party Size) allows the user to choose appropriate option for the booking. I have also included "Do we need to know anything else" section, for sharing any important information, if the party size is larger than the option given or they would like more tailored services. The text input area can be expanded/reduced to suit the users preference.
-* __Social links in the footer__ - Provides the user with the option to connect with us via social media platforms as well as send us an email directly.
+* __Workshop Page__ - This page showcases a form allowing to book a workshop. Form has Name and Email Address set as mandatory requirement. Also, the form will not allow submission if the consent button is ticked. Two sections of the form (Workshop & Date and Select Party Size) allows the user to choose appropriate option for the booking. I have also included "Do we need to know anything else" section, for sharing any important information, if the party size is larger than the option given or they would like more tailored services. The text input area can be expanded/reduced to suit the users preference. Once the form is complete, BOOK button is active to complete the booking.
+* __Social links in the footer__ - This part of every page provides the user with the option to connect with us via social media platforms as well as send us an email directly. Each button will open up on a new browset window or email software on your machine if you select to send an email. 
 ### Features Left to Implement
 * __Recipe Demo__ - This feature is for showcasing how to prepare the meals in a video format. 
-* __Workshop Page__ - BOOK button to enable the user to pay online.
-* __Basket__ - Feature allowing the user to select multiple workshops and adding them to the basket to pay later.
+* __Workshop Page__ - BOOK button to enable the user to physically book a session and pay online.
+* __Basket__ - Feature allowing the user to select multiple workshops and add them to the basket to pay later.
 * __Returning User__ - Allow the returning user to create their profile to keep on learning new skills.
 
 ## Technologies Used
