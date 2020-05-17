@@ -1,5 +1,5 @@
 ## Cheft at home - First Milestone Project - Code Institute (https://codeinstitute.net/)
-<img src="assets/images/logo.JPG" style="margin: 0;">
+<img src="assets/images/mac-test.JPG" style="margin: 0;">
 
 The aim of the project is to showcase my ability to design and build a static web page using HTML, CSS and Bootstrap for my First Milestone project at Code Institute, Full Stack Developer. 
 
