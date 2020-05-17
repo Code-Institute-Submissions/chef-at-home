@@ -1,4 +1,4 @@
-## Cheft at home - First Milestone Project - Code Institute (https://codeinstitute.net/)
+## CHEF AT HOME - First Milestone Project - Code Institute (https://codeinstitute.net/)
 <img src="assets/images/mac-test.JPG" style="margin: 0;">
 
 The aim of the project is to showcase my ability to design and build a static web page using HTML, CSS and Bootstrap for my First Milestone project at Code Institute, Full Stack Developer. 
@@ -24,8 +24,8 @@ I also wanted to make sure the website is intuitive, easy to navigate and not ov
 ### Existing Features
 * __Header navigation buttons__ - Allows the user to navigate through pages back and forth: Home, Recipes, Workshop.
 * __Home Page__ - Includes a brief introduction, a few images taken from previous workshops (assumed) as well as client testimonials (to build trust and add credibility).
-* __Recipes Page__ - Page showcases an option to view and try some recipes at home. By clicking on the buttons BREAKFAST, LUNCH, DINNER the user triggers a modal, which displays recipes on a pop-up box. The user will navigate the pop-up with the scroll on the right hand side. To exit the recipe: 1) click close button at the top of the page and 2) close button at the bottom of the page.
-* __Workshop Page__ - This page showcases a form allowing to book a workshop. Form has Name and Email Address set as mandatory requirement. Also, the form will not allow submission if the consent button is ticked. Two sections of the form (Workshop & Date and Select Party Size) allows the user to choose appropriate option for the booking. I have also included "Do we need to know anything else" section, for sharing any important information, if the party size is larger than the option given or they would like more tailored services. The text input area can be expanded/reduced to suit the users preference. Once the form is complete, BOOK button is active to complete the booking.
+* __Recipes Page__ - Page showcases an option to view and try some recipes at home. By clicking on the buttons BREAKFAST, LUNCH, DINNER the user triggers a modal, which displays recipes on a pop-up box. The user will navigate the pop-up box with the scroll button positioned on the right hand side. To exit the recipe: 1) click close icon (x) at the top of the page and 2) CLOSE button at the bottom of the page.
+* __Workshop Page__ - This page showcases a form allowing the user to book a workshop. Form has Name and Email Address set as mandatory requirement. Also, the form will not allow submission if the consent button is not ticked. Two sections of the form (Workshop & Date and Select Party Size) allows the user to choose appropriate option for the booking. I have also included "Do we need to know anything else" section, for sharing any important information, if the party size is larger than the option given or they would like more tailored services. The text input area can be expanded/reduced to suit the user's preference. Once the form is complete, BOOK button is active to complete the booking.
 * __Social links in the footer__ - This part of every page provides the user with the option to connect with us via social media platforms as well as send us an email directly. Each button will open up on a new browset window or email software on your machine if you select to send an email. 
 ### Features Left to Implement
 * __Recipe Demo__ - This feature is for showcasing how to prepare the meals in a video format. 
@@ -47,10 +47,10 @@ I also wanted to make sure the website is intuitive, easy to navigate and not ov
 1. I have used http://ami.responsivedesign.is/ to see how the site would load on different Apple devices. I have also tested the site on iPhone X, Ipad mini and Ipad. Icons performed as anticipated. I have also used this website for a screenshot at the top of this document. 
 2. Desktop
 
-    * Google Chrome, Microsoft Edge; all pages and links on the pages work as anticipated, including on small, medium and lage displays. I also used developer tools on Chrome to test differnt viewpoint sizes. 
+    * Google Chrome, Microsoft Edge; all pages and links on the pages work as anticipated, including on small, medium and lage displays. I also used developer tools on Chrome to test different viewpoint sizes. 
 3. Mobile 
 
-    * Used iPhone X, Huawei Pro20 and Pro 30 to testt. All pages, links and icons performed well. 
+    * Used iPhone X, Huawei Pro 20 and Pro 20 Mate to test. All pages, links and icons performed well. 
 
 4. Workshop form
 
@@ -62,7 +62,7 @@ I also wanted to make sure the website is intuitive, easy to navigate and not ov
 
 5. Footer 
 
-    * Try to click on email icon. This should trigger default email programme on your device. The emails go to fake inbox currently. PLease do not attempt to send the email at this stage.
+    * Try to click on email icon. This should trigger default email programme on your device. The emails go to fake inbox currently. Please do not attempt to send the email at this stage.
     * Try to click on social media buttons. This should trigger a new browser window opening up home page links of the social media channels. 
 
 6. Recipes Page
@@ -94,7 +94,7 @@ For more information on the process here: https://help.github.com/en/github/crea
 ## Credits
 ### Content
  1. HTML & CSS (and JS to activate modal) code templates identified on Bootstrap documentation (https://getbootstrap.com/docs/4.5/getting-started/introduction/)
- 2. Modal inspiration: https://codepen.io/Eventyret/pen/ExVeOme?editors=1010
+ 2. Modal inspiration: https://codepen.io/Eventyret/pen/ExVeOme?editors=1010 (Thanks to Simen Daehlin from Code Institute)
  3. I have identified font styles using Google Fonts: https://fonts.google.com/
 
 
@@ -120,6 +120,6 @@ For more information on the process here: https://help.github.com/en/github/crea
 
 ## Acknowledgements
 
-1. Code Institute slack community: Simen Daehlin, Steve Pilcher, Richard Wells, Carlos R, Bim Williams, Simon Castagna and many other for listening to me and encouraging to keep at it and not to give up finding solutions!
-2. Code Institute Slack Channels and their leads, mentos, alumni and users for encouragement, guidance througout the project (https://slack.com/intl/en-gb/)
-3. Mentor Ade Adegbenga (https://www.linkedin.com/in/adegbenga-adeye-14003635/) for hints and tips on website design improvement and reccomendations and good advice.
+1. Big thank you to Code Institute slack community: Simen Daehlin, Steve Pilcher, Richard Wells, Carlos R, Bim Williams, Simon Castagna and many other for listening to me and encouraging to keep at it and not to give up finding solutions!
+2. Also, many thanks to Code Institute Slack Channels and their leads, mentors, alumni and users for encouragement, guidance througout the project (https://slack.com/intl/en-gb/)
+3. I would like to thank my Mentor Ade Adegbenga (https://www.linkedin.com/in/adegbenga-adeye-14003635/) for website design improvement recommendations, support and good general advice.
