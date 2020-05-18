@@ -122,4 +122,5 @@ For more information on the process here: https://help.github.com/en/github/crea
 
 1. Big thank you to Code Institute slack community: Simen Daehlin, Steve Pilcher, Richard Wells, Carlos R, Bim Williams, Simon Castagna and many other for listening to me and encouraging to keep at it and not to give up finding solutions!
 2. Also, many thanks to Code Institute Slack Channels and their leads, mentors, alumni and users for encouragement, guidance througout the project (https://slack.com/intl/en-gb/)
-3. I would like to thank my Mentor Ade Adegbenga (https://www.linkedin.com/in/adegbenga-adeye-14003635/) for website design improvement recommendations, support and good general advice.
+3. I would like to thank my Mentor Ade Adegbenga (https://www.linkedin.com/in/adegbenga-adeye-14003635/) for website design improvement recommendations, support and good general advice as well as excellent reccomendation on README.md example (https://github.com/BobHerold/RobertHeroldportfolio/blob/master/README.md). 
+
