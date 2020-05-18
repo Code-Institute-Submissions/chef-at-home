@@ -22,6 +22,8 @@ I also wanted to make sure the website is intuitive, easy to navigate and not ov
 
 ## Features
 ### Existing Features
+***please note: some features of the site have improved in comparison to wireframe and initial documentation as the development of the website has progressed. The new solutions used instead were better suited for the purpose as well as to improve the features of the website, not forgetting the design and the layout.***
+
 * __Header navigation buttons__ - Allows the user to navigate through pages back and forth: Home, Recipes, Workshop.
 * __Home Page__ - Includes a brief introduction, a few images taken from previous workshops (assumed) as well as client testimonials (to build trust and add credibility).
 * __Recipes Page__ - Page showcases an option to view and try some recipes at home. By clicking on the buttons BREAKFAST, LUNCH, DINNER the user triggers a modal, which displays recipes on a pop-up box. The user will navigate the pop-up box with the scroll button positioned on the right hand side. To exit the recipe: 1) click close icon (x) at the top of the page and 2) CLOSE button at the bottom of the page.
