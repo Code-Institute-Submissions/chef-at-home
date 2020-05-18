@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+
+
+
+/* -----special styling accross all pages----*/
+html, body {
+    height: 100%;
+}
+.uppercase{
+  text-transform: uppercase; 
+}
+.image-box {
+    background-color: #5e6282;
+}
+
+section,
+div .section{
+    color: #3b3d51;
+    font-family: "Roboto", sans-serif;
+    background-color: #f7f7f9;
+  
+}
+.btn {
+    color: #fff;
+    background-color: #474962;
+    font-weight: normal;
+}
+.btn:hover {  
+    background-color: #5e6282;
+    color: #fff;
+    font-weight: normal;
+}
+/*-----------Header section--------------*/
+
+header{
+    background-color: #474962;
+    min-height: 60px;
+    font-family: "Roboto", sans-serif;
+    color: #fff;
+}
+.heading-logo h4{
+    letter-spacing: 3px;
+    margin-bottom: 0;
+    font-size: 35px;
+}
+.nav li a{
+    color: #f7f7f9;
+    background-color: #474962;
+    font-weight: normal;   
+}
+.nav li a:hover{
+    color: #f7f7f9;
+    background-color: #5e6282;
+    font-weight: normal;  
+    padding-top: 4px; padding-bottom: 4px; padding-left: 8px; padding-right: 8px;
+}
+.nav-link {
+    padding-top: 4px; padding-bottom: 4px;
+    padding-right: 8px; padding-left: 8px;
+    border-radius: .25rem!important;
+}
+
+
+/*-----------Home page main section--------------*/
+
+.quote-text-box{
+    background-color: #525672;
+    color: #fff;
+    font-family: "Exo", sans-serif;    
+}
+
+.quote-header{
+    border-bottom: 2px solid #3b3d51;
+    margin: 0;
+}
+#hr-quotes, 
+blockquote {
+    margin: 0;  
+}
+.blockquote-footer{
+    background-color: #525672!important;
+    color:#fff!important;
+    height: 25px;
+}
+.blockquote {
+    margin-bottom: 2px;
+    font-size: 18px;
+    font-weight: 300;
+   
+}
+
+/*-------------------Footer---------------------*/
+
+footer {
+    background-color: #3b3d51;
+    height: 65px;   
+}
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 14px;
+    line-height: 10px;
+    text-align: center;
+    color: #5e6282;
+    background-color: #fff;
+}
+.social-links li a i:hover {
+    color:#fff;
+    background-color:#5e6282;
+}
+.social-links li{
+    list-style-type: none;
+}
+
+/*---------------Workshop Page-------------------*/
+
+.form-group {
+    margin: 0;     
+}
+.form-group input{
+    font-weight: normal;
+}
+.form-control{
+    border-color: #5e6282;
+    border-width: 2px;
+    margin-top: 2px; margin-bottom:2px;
+    background-color: #5e6282;
+    vertical-align: middle;
+    color: #fff;
+    font-family: "Roboto", sans-serif; 
+    font-weight: normal;
+}
+.form-group input,
+.form-group textarea {
+    background-color: #fff;
+}
+.custom-select{
+    display: block;
+    height: 38px;
+    border-color: #5e6282;
+    border-width: 2px;
+    margin-top: 2px; margin-bottom: 2px;
+    background-color: #fff;
+    font-family: "Roboto", sans-serif;
+    padding-left: 0.75rem; padding-right: 0.75rem;
+}
+.form-legal-info{
+    padding-left: 15px; padding-right: 15px;
+    margin-top: 3px; margin-bottom: 3px;
+}
+
+/*-------------------------Recipes Page ----------------------*/
+
+.breakfast-recipe-box {
+    background-color: #f2d2d5;
+}
+.lunch-recipe-box {
+    background-color: #cbe9d4;
+}
+.dinner-recipe-box{
+    background-color: #d0e7f9;
+}
+#breakfastrecipe,
+#lunchrecipe,
+#dinnerrecipe {
+    color: #474962;
+}
+.modal-content{
+    max-height: 600px;
+    max-width: 1000px;
+    overflow: auto;
+}
+.modal-header{
+    border-bottom-color: #474962;
+}
+.modal-footer{
+    border-top-color: #474962;
+}
+.recipe-box:target {
+    display:block;
+}
+.you-will-need li,
+.method{
+    list-style-type: none;
+}
+
+
