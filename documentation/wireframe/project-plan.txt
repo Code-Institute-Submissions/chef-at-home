@@ -1,0 +1,32 @@
+Product: Cookery Workshops – Chef at home
+Audience: Yung Families, Students, Professionals – anyone who have not cooked or would like to learn more how to prepare simple meals. 
+Purpose: Attract young families, professionals and students to the workshops where they will learn how to prepare simple home cooked meals, which are easy and quick to make. 
+The website will have "Welcome" page, "Recipes" page and "Workshops" page. 
+1)	Header – logo (Chef at home) on the left; menu navigation on the right: Home, Recipes, Workshop
+2)	Footer - TBC: 
+a)	Contact us for special requests
+b)	Links to social media with logos: Facebook, Instagram, pinterest, youtube
+
+3)	Welcome page to have: 
+a)	Welcome message by introducing who we are and our passion for food
+b)	Highlight that recipes are easy to prepare and that our aim is to pass on the knowledge of best practices for simple, home cooked meals
+c)	Testimonials section with two testimonials
+d)	A few pictures to get page visitors to carry on browsing
+
+4)	Recipes page to have: 
+Sample recipes:
+a)	Breakfast with short description and underneath it "read more" button to expand into: 
+(i)	prep/cook times
+(ii)	ingredients list
+(iii)	method
+b)	Lunch (same as above) 
+c)	Dinner (same as above)
+
+5)	Workshop page to have:
+This page will have an encouraging message to get page visitors to book a workshop with the following table:
+(i)	Name
+(ii)	Email (both required)
+(iii)	Selection tool (2) to select date and times for the workshop 
+(iv)	Selection tool (1) party size: 1 person, 2 people, 3 people etc (which will also display price for the booking)
+(v)	Section "other" for any special or dietary requirements.
+(vi)	Button to make a reservation
