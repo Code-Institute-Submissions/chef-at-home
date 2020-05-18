@@ -1,5 +1,5 @@
 Product: Cookery Workshops – Chef at home
-Audience: Yung Families, Students, Professionals – anyone who have not cooked or would like to learn more how to prepare simple meals. 
+Audience: Young Families, Students, Professionals – anyone who have not cooked or would like to learn more how to prepare simple meals. 
 Purpose: Attract young families, professionals and students to the workshops where they will learn how to prepare simple home cooked meals, which are easy and quick to make. 
 The website will have "Welcome" page, "Recipes" page and "Workshops" page. 
 1)	Header – logo (Chef at home) on the left; menu navigation on the right: Home, Recipes, Workshop
